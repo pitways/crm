@@ -241,3 +241,49 @@ footer {
   color: #732626;
   border: 1px solid #732626;
 }
+
+.client-page-container {
+    border-left: 2px solid #333;
+    border-bottom: 2px solid #333;
+    padding: 20px;
+}
+
+.client-page-border {
+    border-top: 2px solid #333;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-container button {
+    margin-right: 10px;
+}
+
+.client-info {
+    display: inline-block;
+    width: 50%;
+}
+
+.client-actions {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+}
+
+.client-name a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.client-phone {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.client-actions a {
+    margin-left: 10px;
+}
