@@ -2,15 +2,15 @@
 
 {% block content %}
 
-    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
 
-    <body>
+<body>
     <h1 style="text-align: center;">Clientes</h1>
 
     <form action="{{ url_for('view_clients') }}" method="POST">
 
         <div>
-            <label for="search_query">Nome ou TLM do clients:</label>
+            <label for="search_query">Nome ou TLM do cliente:</label>
             {{ search_form.search_query() }}
         </div>
         <button type="submit">Pesquisar clientes</button>
@@ -30,36 +30,41 @@
 
     <ul>
         {% for client in search_results %}
-            <li>
-<a href="{{ url_for('edit_client', client_id=client.id) }}">{{ client.name }} - {{ client.phone }}</a>
-<a href="{{ url_for('client_properties', client_id=client.id) }}">[view properties]</a>
-                <a href="{{ url_for('delete_client', client_id=client.id) }}">[delete s]</a>
-            </li>
+        <li>
+            <a href="{{ url_for('edit_client', client_id=client.id) }}">{{ client.name }} - {{ client.phone }}</a>
+            <a href="{{ url_for('client_properties', client_id=client.id) }}">[view properties]</a>
+            <a href="{{ url_for('delete_client', client_id=client.id) }}">[delete]</a>
+        </li>
         {% endfor %}
     </ul>
 
     {% if clients %}
-        <ul>
-            {% for client in clients %}
-    <tr>
-
-        <td>{{ client.id }}</td>
-        <td>{{ client.name }}</td>
-                <li>
-<a href="{{ url_for('edit_client', client_id=client.id) }}">{{ client.name }} - {{ client.phone }}</a>
-<a href="{{ url_for('client_properties', client_id=client.id) }}">[view properties]</a>
-<a href="{{ url_for('delete_client', client_id=client.id) }}">[delete 5]</a>
-                </li>
-                    </tr>
-
-            {% endfor %}
-        </ul>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Actions</th>
+        </tr>
+        {% for client in clients %}
+        <tr>
+            <td>{{ client.id }}</td>
+            <td>{{ client.name }}</td>
+            <td>{{ client.phone }}</td>
+            <td>
+                <a href="{{ url_for('edit_client', client_id=client.id) }}">[edit]</a>
+                <a href="{{ url_for('client_properties', client_id=client.id) }}">[view properties]</a>
+                <a href="{{ url_for('delete_client', client_id=client.id) }}">[delete]</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
     {% else %}
-        <p>Nenhum cliente encontrado.</p>
-        {% if not search_results and search_form.search_query.data %}
-            <p>{{ get_flashed_messages()[0] }}</p>
-        {% endif %}
+    <p>Nenhum cliente encontrado.</p>
+    {% if not search_results and search_form.search_query.data %}
+    <p>{{ get_flashed_messages()[0] }}</p>
+    {% endif %}
     {% endif %}
 
-    </body>
+</body>
 {% endblock %}
