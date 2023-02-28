@@ -1,7 +1,6 @@
-import os
-
-from datetime import datetime
 import base64
+import os
+from datetime import datetime
 
 from flask import Flask
 from flask_login import UserMixin

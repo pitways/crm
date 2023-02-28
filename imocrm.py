@@ -1,8 +1,9 @@
+import base64
 import logging.handlers
 import os
 import sys
-import base64
 from base64 import b64encode
+
 sys.path.append('/')
 
 from flask import (
@@ -14,7 +15,6 @@ from flask import (
     request,
     url_for,
     current_app,
-    jsonify,
 )
 from flask_login import (
     LoginManager,
@@ -30,7 +30,6 @@ from sqlalchemy.orm import sessionmaker, scoped_session
 from werkzeug.security import check_password_hash, generate_password_hash
 from werkzeug.utils import secure_filename
 from werkzeug.exceptions import BadRequestKeyError
-from wtforms.validators import Optional, NumberRange
 
 from forms import (
     RegistrationForm,
@@ -41,7 +40,6 @@ from forms import (
     SearchForm,
     PropertiesForm,
     PropertySearchForm,
-    CommentForm,
 )
 from models import (
     db,

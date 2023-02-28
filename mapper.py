@@ -1,5 +1,6 @@
 from sqlalchemy.orm import class_mapper
-from models import Properties, Client, Users
+
+from models import Properties
 
 mapper = class_mapper(Properties)
 #mapper = class_mapper(Client)

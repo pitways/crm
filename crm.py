@@ -2,13 +2,12 @@ import os
 import sys
 import base64
 from base64 import b64encode
+import logging.handlers
+
 print(os.getcwd())
-import secrets
 
 sys.path.append('/')
 # import logging
-import logging.handlers
-
 
 from flask import (
     Blueprint,
@@ -18,8 +17,6 @@ from flask import (
     render_template,
     request,
     url_for,
-    current_app,
-    jsonify,
 )
 from flask_login import (
     LoginManager,
@@ -29,17 +26,14 @@ from flask_login import (
     logout_user,
 )
 from flask_migrate import Migrate
-from flask_wtf.csrf import generate_csrf
+from flask_wtf.csrf import generate_csrf, CSRFProtect
 from sqlalchemy import or_, func, create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
 from werkzeug.security import check_password_hash, generate_password_hash
 from werkzeug.utils import secure_filename
 from werkzeug.exceptions import BadRequestKeyError
-from wtforms.validators import Optional, NumberRange
 from jinja2 import DebugUndefined
 from flask_debugtoolbar import DebugToolbarExtension
-from io import BytesIO
-from PIL import Image
 from flask import jsonify
 
 from forms import (
@@ -51,7 +45,6 @@ from forms import (
     SearchForm,
     PropertiesForm,
     PropertySearchForm,
-    CommentForm,
 )
 from models import (
     db,
@@ -99,8 +92,10 @@ def create_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SECRET_KEY'] = 'e2d7dd8c522f1cf159f6b45a6d7e8c25'
     app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # set maximum content length to 16 MB
+    MAX_CONTENT_LENGTH = 1024 * 1024  # 1 MB
+
     return app
-MAX_CONTENT_LENGTH = 1024 * 1024  # 1 MB
+
 
 app = create_app()
 
@@ -110,6 +105,11 @@ db.init_app(app)
 migrate = Migrate(app, db)
 login_manager = LoginManager()
 login_manager.init_app(app)
+
+csrf = CSRFProtect()
+csrf.init_app(app)
+
+
 
 # Create a blueprint for this module
 bp = Blueprint('views', __name__, url_prefix='/')
@@ -121,6 +121,7 @@ session = scoped_session(Session)
 
 toolbar = DebugToolbarExtension(app)
 
+
 # Error handling
 @app.errorhandler(404)
 def page_not_found(error):
@@ -131,7 +132,6 @@ def page_not_found(error):
 def special_exception_handler(error):
     app.logger.error(error)
     return '500 error', 500
-
 
 def page_not_found(error):
     return 'This page does not exist', 404

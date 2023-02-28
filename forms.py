@@ -1,11 +1,12 @@
-from flask import Flask
 from datetime import date
+
+from flask import Flask
 from flask import flash
 from flask_sqlalchemy import SQLAlchemy
 from flask_wtf import FlaskForm
 from flask_wtf.file import FileField, FileAllowed
 from wtforms import PasswordField, BooleanField, StringField, DateField, IntegerField, SelectField, TextAreaField, \
-    SubmitField, DecimalField, validators
+    SubmitField, DecimalField
 from wtforms.validators import DataRequired, Email, Optional, EqualTo, Length, NumberRange
 
 from models import Client, Properties

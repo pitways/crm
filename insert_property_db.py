@@ -1,7 +1,5 @@
 from flask import (
-    Flask,
-    flash,
-    current_app )
+    Flask)
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = '/home/pit/PycharmProjects'

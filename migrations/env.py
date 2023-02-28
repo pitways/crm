@@ -1,4 +1,3 @@
-import os
 import sys
 sys.path.append('/')
 from logging.config import fileConfig
@@ -7,9 +6,7 @@ from alembic import context
 from flask_migrate import Migrate
 from .models import db
 from flask import (
-    Flask,
-    flash,
-    current_app
+    Flask
 )
 
 def create_app():

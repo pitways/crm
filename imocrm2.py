@@ -1,15 +1,4 @@
-import logging
 import os
-import base64
-import sys
-from io import BytesIO
-from datetime import datetime
-from flask_migrate import Migrate
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, scoped_session
-from sqlalchemy import or_
-from werkzeug.utils import secure_filename
-from flask_wtf.csrf import generate_csrf, validate_csrf
 
 from flask import (
     Blueprint,
@@ -20,43 +9,38 @@ from flask import (
     request,
     url_for,
     current_app,
-    jsonify,
-    logging,
 )
 from flask_login import (
     LoginManager,
     current_user,
-    login_required,
     login_user,
     logout_user,
 )
+from flask_migrate import Migrate
 from flask_wtf.csrf import generate_csrf
+from sqlalchemy import create_engine
+from sqlalchemy import or_
+from sqlalchemy.orm import sessionmaker, scoped_session
 from werkzeug.security import check_password_hash, generate_password_hash
-from wtforms.validators import Optional, NumberRange
-from django.shortcuts import render
-from django.core.files.storage import FileSystemStorage
+from werkzeug.utils import secure_filename
 
 from forms import (
     RegistrationForm,
     LoginForm,
-    LeadForm,
     InteractionForm,
     ClientForm,
-    SearchForm,
     PropertiesForm,
     PropertySearchForm,
     CommentForm,
 )
 from models import (
     db,
-    Sale,
     Client,
     Properties,
     Lead,
     Interaction,
     Users,
 )
-
 
 app = Flask(__name__)
 UPLOAD_FOLDER = os.path.join(app.root_path, 'static', 'photos')
