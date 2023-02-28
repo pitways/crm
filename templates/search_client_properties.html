@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+            <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+  <h1>Search for a client</h1>
+
+  <form method="POST">
+    <label for="client_id_or_name">ID or Name:</label>
+    <input type="text" id="client_id_or_name" name="client_id_or_name">
+    <button type="submit">Search</button>
+  </form>
+
+{% endblock %}

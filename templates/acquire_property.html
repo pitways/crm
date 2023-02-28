@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Acquire Property</h1>
+  <p>Acquire {{ property.name }} for {{ client.name }}?</p>
+  <form action="{{ url_for('acquire_property', client_id=client.id, property_id=property.id) }}" method="post">
+    <button type="submit" class="btn btn-primary">Yes</button>
+    <a href="{{ url_for('client_properties', client_id=client.id) }}" class="btn btn-secondary">Cancel</a>
+  </form>
+{% endblock %}

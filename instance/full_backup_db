@@ -1,0 +1,156 @@
+-- we don't know how to generate root <with-no-name> (class Root) :(
+create table client
+(
+    id             INTEGER      not null
+        primary key,
+    email          VARCHAR(255) not null
+        unique,
+    phone          TEXT,
+    name           TEXT,
+    address        TEXT,
+    birthdate      TEXT,
+    marital_status TEXT,
+    profession     TEXT,
+    income         INTEGER
+);
+
+create table comment
+(
+    id        INTEGER      not null
+        primary key,
+    author    VARCHAR(100) not null,
+    text      TEXT         not null,
+    timestamp DATETIME
+);
+
+create index ix_comment_timestamp
+    on comment (timestamp);
+
+create table interaction
+(
+    id          INTEGER  not null
+        primary key,
+    date        DATETIME not null,
+    notes       VARCHAR(500),
+    next_action VARCHAR(50),
+    client_id   INTEGER  not null
+        references client
+);
+
+create index idx_interaction_client_id
+    on interaction (client_id);
+
+create index idx_interactions_client_id
+    on interaction (client_id);
+
+create index ix_interaction_client_id
+    on interaction (client_id);
+
+create table lead
+(
+    id              INTEGER     not null
+        primary key,
+    date            DATETIME    not null,
+    source          VARCHAR(50) not null,
+    status          VARCHAR(20),
+    additional_info VARCHAR(500)
+);
+
+create table properties
+(
+    id            INTEGER      not null
+        primary key,
+    name          VARCHAR(200) not null,
+    address       VARCHAR(200) not null,
+    city          VARCHAR(50)  not null,
+    state         VARCHAR(50)  not null,
+    value         INTEGER      not null,
+    property_type VARCHAR(50)  not null,
+    price         INTEGER      not null,
+    bedrooms      INTEGER      not null,
+    bathrooms     INTEGER      not null,
+    area          INTEGER      not null,
+    garage        VARCHAR(50)  not null,
+    description   VARCHAR(500) not null,
+    photo         STRING,
+    client_id     INTEGER      not null
+        references client
+);
+
+create table client_property_association
+(
+    id            INTEGER not null
+        primary key,
+    client_id     INTEGER not null
+        references client,
+    property_id   INTEGER not null
+        references properties,
+    date_acquired DATE
+);
+
+create index idx_properties_client_id
+    on properties (client_id);
+
+create index ix_properties_client_id
+    on properties (client_id);
+
+create table properties_dg_tmp
+(
+    id            INTEGER                   not null
+        primary key,
+    name          VARCHAR(200)              not null,
+    address       VARCHAR(200)              not null,
+    city          VARCHAR(50)               not null,
+    state         VARCHAR(50)               not null,
+    value         INTEGER                   not null,
+    property_type VARCHAR(50)               not null,
+    price         INTEGER                   not null,
+    bedrooms      INTEGER                   not null,
+    bathrooms     INTEGER                   not null,
+    area          INTEGER                   not null,
+    garage        VARCHAR(50)               not null,
+    description   VARCHAR(500)              not null,
+    photo         INTEGER client_id INTEGER not null
+        references client
+);
+
+create table sale
+(
+    id            INTEGER  not null
+        primary key,
+    date          DATETIME not null,
+    value         INTEGER  not null,
+    commission    INTEGER  not null,
+    closing_date  DATETIME,
+    details       VARCHAR(500),
+    client_id     INTEGER  not null
+        references client,
+    properties_id integer
+);
+
+create index idx_sale_client_id
+    on sale (client_id);
+
+create index idx_sale_property_id
+    on sale (properties_id);
+
+create index idx_sales_client_id
+    on sale (client_id);
+
+create index ix_sale_client_id
+    on sale (client_id);
+
+create index ix_sale_property_id
+    on sale (properties_id);
+
+create table users
+(
+    id       INTEGER      not null
+        primary key,
+    email    VARCHAR(255) not null
+        unique,
+    password VARCHAR(128) not null,
+    username VARCHAR(255) not null,
+    is_admin BOOLEAN
+);
+

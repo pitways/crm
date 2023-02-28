@@ -1,0 +1,10 @@
+app==0.0.1
+Flask==2.2.3
+flask_login==0.6.2
+flask_migrate==4.0.4
+flask_sqlalchemy==3.0.3
+flask_wtf==1.1.1
+python_bcrypt==0.3.2
+SQLAlchemy==2.0.4
+Werkzeug==2.2.3
+WTForms==3.0.1

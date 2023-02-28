@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    <h1>Property Details</h1>
+
+    {% if photo_filename %}
+        <img src="{{ url_for('property_photo', filename=photo_filename) }}" alt="Property Photo" class="card-img-top">
+    {% endif %}
+
+    {% if property.photo %}
+        <img src="{{ url_for('static', filename='photos/' + property.photo) }}" class="img-fluid" alt="Property Photo">
+    {% else %}
+        <<img src="{{ url_for('static', filename='photos/placeholder.png') }}" class="img-fluid" alt="Placeholder Photo">
+    {% endif %}
+
+    <p>Address: {{ property.address }}, {{ property.city }}, {{ property.distrito }}</p>
+    <p>Type: {{ property.property_type }}</p>
+    <p>Price: {{ property.price }} €</p>
+    <p>Value: {{ property.value }} €</p>
+    <p>Bedrooms: {{ property.bedrooms }}</p>
+    <p>Bathrooms: {{ property.bathrooms }}</p>
+    <p>Area: {{ property.area }} m²</p>
+    <p>Garage: {{ property.garage }}</p>
+    <p>Description: {{ property.description }}</p>
+
+    <head>
+        <style>
+            body {
+                margin-left: 50px; /* Set the left margin to 20 pixels */
+            }
+
+            div {
+                text-align: center;
+            }
+
+            .button-group {
+                display: flex;
+                justify-content: center;
+                margin-top: 20px; /* Add some margin to separate from the property details */
+            }
+
+            form {
+                margin-right: 10px; /* Add some space between the buttons */
+            }
+
+            body {
+      margin-bottom: 50px;
+    }
+                h1 {
+      text-align: center;
+    }
+        </style>
+    </head>
+
+    <body>
+        <div class="button-group">
+            <form method="POST" action="{{ url_for('delete_property', id=property.id) }}" onsubmit="return confirm('Are you sure you want to delete this property?');">
+                <button type="submit" class="btn btn-danger">Delete prop</button>
+            </form>
+
+            <form action="{{ url_for('update_property', id=property['id']) }}" method="post">
+                <button type="submit" class="btn btn-warning">Update prop</button>
+            </form>
+        </div>
+
+        <a href="{{ url_for('view_properties') }}" class="btn btn-secondary">Back to Properties</a>
+    </body>
+{% endblock %}

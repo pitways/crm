@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+    <h1>Search Properties 1</h1>
+
+  <p>Search query: {{ form.search_query() }}</p>
+
+    <form method="POST" action="{{ url_for('search_properties') }}">
+        <div>
+            {{ search_form.search_query.label }}
+            {{ search_form.search_query(size=20) }}
+        </div>
+        <div>
+            {{ search_form.address.label }}
+            {{ search_form.address(size=100) }}
+        </div>
+        <div>
+            {{ search_form.city.label }}
+            {{ search_form.city(size=20) }}
+        </div>
+
+        <div>
+            {{ search_form.distrito.label }}
+            {{ search_form.distrito(size=20) }}
+        </div>
+
+        <div>
+            {{ search_form.property_type.label }}
+            {{ search_form.property_type() }}
+        </div>
+
+        <div>
+            {{ search_form.min_price.label }}
+            {{ search_form.min_price(size=10) }}
+        </div>
+
+        <div>
+            {{ search_form.max_price.label }}
+            {{ search_form.max_price(size=10) }}
+        </div>
+
+        <div>
+            {{ search_form.min_bedrooms.label }}
+            {{ search_form.min_bedrooms(size=5) }}
+        </div>
+
+        <div>
+            {{ search_form.max_bedrooms.label }}
+            {{ search_form.max_bedrooms(size=5) }}
+        </div>
+
+        <div>
+            {{ search_form.min_bathrooms.label }}
+            {{ search_form.min_bathrooms(size=5) }}
+        </div>
+
+        <div>
+            {{ search_form.max_bathrooms.label }}
+            {{ search_form.max_bathrooms(size=5) }}
+        </div>
+
+        <button type="submit">Search</button>
+    </form>
+
+    {% if search_results %}
+        <h2>Search Results:</h2>
+        <ul>
+            {% for property in search_results %}
+                <li>
+                    <a href="{{ url_for('edit_property', property_id=property.id) }}">{{ property.address }}
+                        - {{ property.property_type }}
+                        - {{ property.price }}</a>
+                    <a href="{{ url_for('delete_property', property_id=property.id) }}">[delete]</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% if properties %}
+            <ul>
+                {% for property in properties %}
+                    <li>
+                        <a href="{{ url_for('edit_property', property_id=property.id) }}">{{ property.address }}
+                            - {{ property.property_type }}
+                            - {{ property.price }}</a>
+                        <a href="{{ url_for('delete_property', property_id=property.id) }}">[delete]</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No properties found 1.</p>
+        {% endif %}
+        {% if not search_results and search_form.search_query.data %}
+            <p>{{ get_flashed_messages()[0] }}</p>
+        {% endif %}
+    {% endif %}
+{% endblock %}

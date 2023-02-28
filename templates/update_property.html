@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+  <div class="page-container">
+    <h1>Update Property</h1>
+    {% if messages %}
+        <div class="messages">
+            {% for message in messages %}
+                <div>{{ message }}</div>
+            {% endfor %}
+        </div>
+    {% endif %}
+    <form method="POST" enctype="multipart/form-data">
+        {{ form.csrf_token }}
+        <div>
+            <label for="name">Name:</label>
+            {{ form.name }}
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            {{ form.address }}
+        </div>
+        <div>
+            <label for="city">City:</label>
+            {{ form.city }}
+        </div>
+        <div>
+            <label for="distrito">State:</label>
+            {{ form.distrito }}
+        </div>
+        <div>
+            <label for="value">Value:</label>
+            {{ form.value }}
+        </div>
+        <div>
+            <label for="property_type">Property Type:</label>
+            {{ form.property_type }}
+        </div>
+        <div>
+            <label for="price">Price:</label>
+            {{ form.price }}
+        </div>
+        <div>
+            <label for="bedrooms">Bedrooms:</label>
+            {{ form.bedrooms }}
+        </div>
+        <div>
+            <label for="bathrooms">Bathrooms:</label>
+            {{ form.bathrooms }}
+        </div>
+        <div>
+            <label for="area">Area:</label>
+            {{ form.area }}
+        </div>
+        <div>
+            <label for="garage">Garage:</label>
+            {{ form.garage }}
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            {{ form.description }}
+        </div>
+        <div>
+            <label for="photo">Photo:</label>
+            {{ form.photo }}
+        </div>
+        <div>
+        <button type="submit" class="btn btn-warning">Update prop</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

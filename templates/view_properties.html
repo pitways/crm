@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+  <h1>Property Details</h1>
+  {% if properties[0].photo %}
+    <img src="{{ url_for('static', filename='photos/' + properties[0].photo) }}" alt="Property Photo" class="card-img-top">
+  {% endif %}
+  <p>Address: {{ properties[0]['address'] }}, {{ properties[0]['city'] }}, {{ properties[0]['distrito'] }}</p>
+  <p>Type: {{ properties[0]['property_type'] }}</p>
+  <p>Price: {{ properties[0]['price'] }} €</p>
+  <p>Value: {{ properties[0]['value'] }} €</p>
+  <p>Bedrooms: {{ properties[0]['bedrooms'] }}</p>
+  <p>Bathrooms: {{ properties[0]['bathrooms'] }}</p>
+  <p>Area: {{ properties[0]['area'] }} m²</p>
+  <p>Garage: {{ properties[0]['garage'] }}</p>
+  <p>Description: {{ properties[0]['description'] }}</p>
+
+  <h1>All Properties</h1>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Address</th>
+      <th>City</th>
+      <th>Distrito</th>
+      <th>Action</th>
+    </tr>
+    {% for property in properties %}
+      <tr>
+        <td>{{ property['name'] }}</td>
+        <td>{{ property['address'] }}</td>
+        <td>{{ property['city'] }}</td>
+        <td>{{ property['distrito'] }}</td>
+        <td>
+          <a href="{{ url_for('view_properties', id=property['id']) }}" class="btn btn-primary">View</a>
+          <a href="{{ url_for('update_property', id=property['id']) }}" class="btn btn-warning">Update</a>
+          <a href="{{ url_for('delete_property', id=property['id']) }}" class="btn btn-danger">Delete Property</a>
+        </td>
+      </tr>
+    {% endfor %}
+  </table>
+
+
+{% endblock %}

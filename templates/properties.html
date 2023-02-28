@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    <body>
+    <h1 style="text-align: center;">Propriedades</h1>
+
+    <form action="{{ url_for('view_properties') }}" method="POST">
+
+        <div>
+            <label for="search_query">Endereço da propriedade do properties:</label>
+            {{ search_form.search_query() }}
+        </div>
+        <button type="submit">Pesquisar propriedades</button>
+    </form>
+
+    <div class="button-container" style="text-align: left;">
+        <a href="/add_property">
+            <button>Cadastrar Propriedade</button>
+        </a>
+    </div>
+
+    <ul>
+        {% for property in search_results %}
+            <li>
+                <a href="{{ url_for('edit_property', id=property.id) }}">{{ property.address }}
+                    - {{ property.price }}</a>
+                <a href="{{ url_for('delete_property', id=property.id) }}">[delete]</a>
+            </li>
+        {% endfor %}
+    </ul>
+    {% if properties %}
+        <ul>
+            {% for property in properties %}
+                <li>
+                    <a href="{{ url_for('edit_property', id=property.id) }}">{{ property.address }}
+                        - {{ property.price }}</a>
+                    <a href="{{ url_for('delete_property', id=property.id) }}">[delete]</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Nenhuma propriedade encontrada.</p>
+        {% if not search_results and search_form.search_query.data %}
+            <p>{{ get_flashed_messages()[0] }}</p>
+        {% endif %}
+    {% endif %}
+
+    </body>
+{% endblock %}

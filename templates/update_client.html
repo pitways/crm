@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Update Client</h1>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+
+
+    <form method="POST" action="{{ url_for('update_client', client_id=client.id) }}">
+        {{ form.csrf_token }}
+        <div class="form-group">
+            {{ form.name.label }}
+            {{ form.name(class="form-control", value=client.name) }}
+            {% for error in form.name.errors %}
+                <span class="text-danger">{{ error }}</span>
+                <p>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.email.label }}
+            {{ form.email(class="form-control", value=client.email) }}
+            {% for error in form.email.errors %}
+                <span class="text-danger">{{ error }}</span>
+                <p>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.birthdate.label }}
+            {{ form.birthdate(class="form-control", value=client.birthdate) }}
+            {% for error in form.birthdate.errors %}
+                <span class="text-danger">{{ error }}</span>
+                <p>
+
+            {% endfor %}
+            <p>
+        </div>
+        <p>
+        <div class="form-group">
+            {{ form.marital_status.label }}
+            {{ form.marital_status(class="form-control", value=client.marital_status) }}
+            {% for error in form.marital_status.errors %}
+                <span class="text-danger">{{ error }}</span>
+                <p>
+
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.income.label }}
+            {{ form.income(class="form-control", value=client.income) }}
+            {% for error in form.income.errors %}
+                <span class="text-danger">{{ error }}</span>
+                <p>
+
+            {% endfor %}
+            <p>
+        </div>
+        <p>
+        <div class="form-group">
+            {{ form.address.label }}
+            {{ form.address(class="form-control", value=client.address) }}
+            {% for error in form.address.errors %}
+                <span class="text-danger">{{ error }}</span>
+                <p>
+
+            {% endfor %}
+        </div>
+
+        <div class="form-group">
+            {{ form.profession.label }}
+            {{ form.profession(class="form-control", value=client.profession) }}
+            {% for error in form.profession.errors %}
+                <span class="text-danger">{{ error }}</span>
+                <p>
+
+            {% endfor %}
+        </div>
+        <button type="submit" class="btn btn-primary">Update 1</button>
+    </form>
+
+
+    <p></p>
+    <a href="{{ url_for('view_clients') }}" class="btn btn-secondary">Back to View Clients</a>
+{% endblock %}

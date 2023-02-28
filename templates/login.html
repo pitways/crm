@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    <h1>Login</h1>
+    <form method="POST" action="{{ url_for('login') }}">
+        {{ form.csrf_token }}
+        <div class="form-group">
+            {{ form.username_or_email.label }} {{ form.username_or_email(class="form-control") }}
+            {% for error in form.username_or_email.errors %}
+                <span class="text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.password.label }} {{ form.password(class="form-control") }}
+            {% for error in form.password.errors %}
+                <span class="text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group form-check">
+            {{ form.remember(class="form-check-input") }} {{ form.remember.label(class="form-check-label") }}
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+{% endblock %}

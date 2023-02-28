@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Properties</h1>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    <form action="{{ url_for('view_properties') }}" method="POST">
+        <div>
+            <label for="search_query">Enter name or address of the property do view:</label>
+            {{ search_form.search_query() }}
+        </div>
+        <button type="submit">Search properties do view</button>
+    </form>
+
+    {% if search_results %}
+        <h2>Search Results:</h2>
+        <ul>
+            {% for property in search_results %}
+                <li>
+                    <a href="{{ url_for('edit_property', id=property.id) }}">{{ property.name }}
+                        - {{ property.address }}</a>
+                    <a href="{{ url_for('delete_property', id=property.id) }}">[delete]</a><br>
+                    {% if property.photo %}
+<img src="{{ url_for('static', filename='photos/' + property.photo.decode('latin1') if isinstance(property.photo, bytes) else property.photo) }}">                             alt="Property Photo" width="300px">
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% if properties %}
+            <ul>
+                {% for property in properties %}
+                    <li>
+                        <a href="{{ url_for('edit_property', id=property.id) }}">{{ property.name }}
+                            - {{ property.address }}</a>
+                        <a href="{{ url_for('delete_property', id=property.id) }}">[delete]</a><br>
+                        {% if property.photo %}
+                            <img src="{{ url_for('static', filename='photos/' + property.photo.decode('latin1')) }}"
+                                 alt="Property Photo" width="300px">
+                        {% endif %}
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>No properties found.</p>
+        {% endif %}
+        {% if not search_results and search_form.search_query.data %}
+            <p>{{ get_flashed_messages()[0] }}</p>
+        {% endif %}
+    {% endif %}
+
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+<div class="col-md-12">
+<h1 class="mt-4 mb-4">Buscar imóveis</h1>
+{{ search_form.hidden_tag() }}
+{{ search_form.search_query(class="form-control mb-2 mr-sm-2") }}
+<button type="submit" class="btn btn-primary mb-2">Buscar</button>
+</div>
+</div>
+{% if search_results %}
+    <div class="row">
+        {% for property in search_results %}
+            <div class="col-md-4">
+                <div class="card mb-4 box-shadow">
+                    {% if property.photo %}
+                        <img class="card-img-top" src="{{ url_for('static', filename='img/' + property.photo) }}">
+                    {% else %}
+                        <div class="no-image"></div>
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title">{{ property.address }}</h5>
+                        <p class="card-text">{{ property.bedrooms }} quartos, {{ property.bathrooms }} banheiros</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="{{ url_for('views.view_property', property_id=property.id) }}" class="btn btn-sm btn-outline-secondary">Visualizar</a>
+                            </div>
+                            <small class="text-muted">{{ property.price | currency }}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+{% elif search_form.search_query.data %}
+    <div class="row">
+        <div class="col-md-12">
+            <p>Nenhum resultado encontrado.</p>
+        </div>
+    </div>
+{% endif %}
+{% endblock %}

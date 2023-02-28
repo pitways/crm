@@ -1,0 +1,45 @@
+
+{% block content %}
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+    <h1>Search Clients s</h1>
+
+    <form method="POST" action="{{ url_for('search_clients') }}">
+        {{ form.hidden_tag() }}
+
+        <div>
+            <label for="search_query">Search by Name or Phone do search:</label>
+            {{ search_form.search_query() }}
+        </div>
+        <button type="submit">Search do search</button>
+    </form>
+
+    {% if search_results %}
+        <h2>Search Results:</h2>
+        <ul>
+            {% for client in search_results %}
+                <li>
+                    <a href="{{ url_for('edit_client', client_id=client.id) }}">{{ client.name }}
+                        - {{ client.phone }}</a>
+                    <a href="{{ url_for('delete_client', client_id=client.id) }}">[deletes]</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% if clients %}
+            <ul>
+                {% for client in clients %}
+                    <li>
+                        <a href="{{ url_for('edit_client', client_id=client.id) }}">{{ client.name }}
+                            - {{ client.phone }}</a>
+                        <a href="{{ url_for('delete_client', client_id=client.id) }}">[delete 6]</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Nenhum cliente encontrado.</p>
+        {% endif %}
+        {% if not search_results and search_form.search_query.data %}
+            <p>{{ get_flashed_messages()[0] }}</p>
+        {% endif %}
+    {% endif %}
+{% endblock %}

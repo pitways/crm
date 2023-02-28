@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+
+{% block content %}
+        <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+
+    <h1>Search Clients</h1>
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            <ul class="flashes">
+                {% for message in messages %}
+                    <li>{{ message }}</li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    {% endwith %}
+
+    <form method="POST" action="{{ url_for('search_clients') }}">
+        {{ form.csrf_token }}
+        {{ form.name.label }} {{ form.name }}
+        {{ form.email.label }} {{ form.email }}
+        {{ form.marital_status.label }} {{ form.marital_status }}
+        {{ form.min_age.label }} {{ form.min_age }}
+        {{ form.max_age.label }} {{ form.max_age }}
+        {{ form.min_income.label }} {{ form.min_income }}
+        {{ form.max_income.label }} {{ form.max_income }}
+        <button type="submit">Search</button>
+    </form>
+
+    {% if search_results %}
+        <h2>Search Results</h2>
+        <p>{{ search_results|length }} result(s) for '{{ search_query }}'</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for client in search_results %}
+                    <tr>
+                        <td>{{ client.name }}</td>
+                        <td>{{ client.email }}</td>
+                        <td>{{ client.phone }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        {% if clients %}
+            <h2>All Clients</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for client in clients %}
+                        <tr>
+                            <td>{{ client.name }}</td>
+                            <td>{{ client.email }}</td>
+                            <td>{{ client.phone }}</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% else %}
+            <p>No clients found.</p>
+        {% endif %}
+    {% endif %}
+{% endblock %}

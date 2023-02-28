@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Delete Client</h1>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    {% if client %}
+        <p>Are you sure you want to delete {{ client.name }} from the database?</p>
+        <form method="POST">
+            <button type="submit">Delete</button>
+            <a href="{{ url_for('view_clients') }}">Cancel</a>
+        </form>
+    {% else %}
+        <p>Client not found.</p>
+    {% endif %}
+{% endblock %}

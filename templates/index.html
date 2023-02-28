@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+<html>
+<head>
+    <title>IMO CRM</title>
+</head>
+<body>
+<h1>Welcome to IMO CRM!</h1>
+<p>Click below to register or log in:</p>
+<ul>
+    <li><a href="{{ url_for('register') }}">Register</a></li>
+    <li><a href="{{ url_for('login') }}">Log In</a></li>
+</ul>
+</body>
+</html>

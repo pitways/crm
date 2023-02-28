@@ -1,0 +1,757 @@
+2023-02-26 23:29:54,412 WARNING  * Debugger is active!
+2023-02-26 23:29:54,412 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:30:43,022 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-26 23:30:43,946 WARNING  * Debugger is active!
+2023-02-26 23:30:43,946 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:31:16,908 INFO 127.0.0.1 - - [26/Feb/2023 23:31:16] "GET /view_properties HTTP/1.1" 200 -
+2023-02-26 23:31:16,923 INFO 127.0.0.1 - - [26/Feb/2023 23:31:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:16,928 INFO 127.0.0.1 - - [26/Feb/2023 23:31:16] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:16,930 INFO 127.0.0.1 - - [26/Feb/2023 23:31:16] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:16,931 INFO 127.0.0.1 - - [26/Feb/2023 23:31:16] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:16,938 INFO 127.0.0.1 - - [26/Feb/2023 23:31:16] "GET /_debug_toolbar/static/css/toolbar.css?0.007399362572535706 HTTP/1.1" 200 -
+2023-02-26 23:31:16,959 INFO 127.0.0.1 - - [26/Feb/2023 23:31:16] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:17,500 INFO 127.0.0.1 - - [26/Feb/2023 23:31:17] "GET /view_properties HTTP/1.1" 200 -
+2023-02-26 23:31:17,511 INFO 127.0.0.1 - - [26/Feb/2023 23:31:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:17,513 INFO 127.0.0.1 - - [26/Feb/2023 23:31:17] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:17,517 INFO 127.0.0.1 - - [26/Feb/2023 23:31:17] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:17,517 INFO 127.0.0.1 - - [26/Feb/2023 23:31:17] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:17,524 INFO 127.0.0.1 - - [26/Feb/2023 23:31:17] "GET /_debug_toolbar/static/css/toolbar.css?0.6829237802714352 HTTP/1.1" 200 -
+2023-02-26 23:31:17,545 INFO 127.0.0.1 - - [26/Feb/2023 23:31:17] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:19,883 INFO 127.0.0.1 - - [26/Feb/2023 23:31:19] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-26 23:31:19,897 INFO 127.0.0.1 - - [26/Feb/2023 23:31:19] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:19,899 INFO 127.0.0.1 - - [26/Feb/2023 23:31:19] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:19,901 INFO 127.0.0.1 - - [26/Feb/2023 23:31:19] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:19,902 INFO 127.0.0.1 - - [26/Feb/2023 23:31:19] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:19,908 INFO 127.0.0.1 - - [26/Feb/2023 23:31:19] "GET /_debug_toolbar/static/css/toolbar.css?0.6104997147853217 HTTP/1.1" 200 -
+2023-02-26 23:31:19,921 INFO 127.0.0.1 - - [26/Feb/2023 23:31:19] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:21,512 INFO 127.0.0.1 - - [26/Feb/2023 23:31:21] "GET /home HTTP/1.1" 200 -
+2023-02-26 23:31:21,532 INFO 127.0.0.1 - - [26/Feb/2023 23:31:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:21,533 INFO 127.0.0.1 - - [26/Feb/2023 23:31:21] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:21,534 INFO 127.0.0.1 - - [26/Feb/2023 23:31:21] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:21,536 INFO 127.0.0.1 - - [26/Feb/2023 23:31:21] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:21,542 INFO 127.0.0.1 - - [26/Feb/2023 23:31:21] "GET /_debug_toolbar/static/css/toolbar.css?0.923482344235941 HTTP/1.1" 200 -
+2023-02-26 23:31:21,555 INFO 127.0.0.1 - - [26/Feb/2023 23:31:21] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:25,762 ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-02-26 23:31:25,764 INFO 127.0.0.1 - - [26/Feb/2023 23:31:25] "[33mGET /edit_property HTTP/1.1[0m" 404 -
+2023-02-26 23:31:27,362 INFO 127.0.0.1 - - [26/Feb/2023 23:31:27] "GET /_debug_toolbar/static/css/toolbar.css?0.4967479345675516 HTTP/1.1" 200 -
+2023-02-26 23:31:28,827 ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-02-26 23:31:28,829 INFO 127.0.0.1 - - [26/Feb/2023 23:31:28] "[33mGET /client_properties HTTP/1.1[0m" 404 -
+2023-02-26 23:31:30,543 INFO 127.0.0.1 - - [26/Feb/2023 23:31:30] "GET /_debug_toolbar/static/css/toolbar.css?0.28162962345727505 HTTP/1.1" 200 -
+2023-02-26 23:31:33,232 INFO 127.0.0.1 - - [26/Feb/2023 23:31:33] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:33,234 INFO 127.0.0.1 - - [26/Feb/2023 23:31:33] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:35,477 INFO 127.0.0.1 - - [26/Feb/2023 23:31:35] "GET /_debug_toolbar/static/css/toolbar.css?0.6371315332555452 HTTP/1.1" 200 -
+2023-02-26 23:31:36,741 INFO 127.0.0.1 - - [26/Feb/2023 23:31:36] "GET /home HTTP/1.1" 200 -
+2023-02-26 23:31:36,756 INFO 127.0.0.1 - - [26/Feb/2023 23:31:36] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:36,757 INFO 127.0.0.1 - - [26/Feb/2023 23:31:36] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:36,758 INFO 127.0.0.1 - - [26/Feb/2023 23:31:36] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:36,759 INFO 127.0.0.1 - - [26/Feb/2023 23:31:36] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:36,767 INFO 127.0.0.1 - - [26/Feb/2023 23:31:36] "GET /_debug_toolbar/static/css/toolbar.css?0.13492643182288466 HTTP/1.1" 200 -
+2023-02-26 23:31:36,778 INFO 127.0.0.1 - - [26/Feb/2023 23:31:36] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:40,680 INFO 127.0.0.1 - - [26/Feb/2023 23:31:40] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:40,682 INFO 127.0.0.1 - - [26/Feb/2023 23:31:40] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:44,223 INFO 127.0.0.1 - - [26/Feb/2023 23:31:44] "GET /_debug_toolbar/static/css/toolbar.css?0.5633737384730528 HTTP/1.1" 200 -
+2023-02-26 23:31:45,723 INFO 127.0.0.1 - - [26/Feb/2023 23:31:45] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-26 23:31:45,742 INFO 127.0.0.1 - - [26/Feb/2023 23:31:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:45,747 INFO 127.0.0.1 - - [26/Feb/2023 23:31:45] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:45,747 INFO 127.0.0.1 - - [26/Feb/2023 23:31:45] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:45,748 INFO 127.0.0.1 - - [26/Feb/2023 23:31:45] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:45,756 INFO 127.0.0.1 - - [26/Feb/2023 23:31:45] "GET /_debug_toolbar/static/css/toolbar.css?0.15579338364270057 HTTP/1.1" 200 -
+2023-02-26 23:31:45,768 INFO 127.0.0.1 - - [26/Feb/2023 23:31:45] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:46,301 INFO 127.0.0.1 - - [26/Feb/2023 23:31:46] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-26 23:31:46,313 INFO 127.0.0.1 - - [26/Feb/2023 23:31:46] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:46,315 INFO 127.0.0.1 - - [26/Feb/2023 23:31:46] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:46,317 INFO 127.0.0.1 - - [26/Feb/2023 23:31:46] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:46,318 INFO 127.0.0.1 - - [26/Feb/2023 23:31:46] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:46,324 INFO 127.0.0.1 - - [26/Feb/2023 23:31:46] "GET /_debug_toolbar/static/css/toolbar.css?0.8509361225501184 HTTP/1.1" 200 -
+2023-02-26 23:31:46,335 INFO 127.0.0.1 - - [26/Feb/2023 23:31:46] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:47,385 INFO 127.0.0.1 - - [26/Feb/2023 23:31:47] "GET /home HTTP/1.1" 200 -
+2023-02-26 23:31:47,401 INFO 127.0.0.1 - - [26/Feb/2023 23:31:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:47,407 INFO 127.0.0.1 - - [26/Feb/2023 23:31:47] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:47,411 INFO 127.0.0.1 - - [26/Feb/2023 23:31:47] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:47,412 INFO 127.0.0.1 - - [26/Feb/2023 23:31:47] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:47,417 INFO 127.0.0.1 - - [26/Feb/2023 23:31:47] "GET /_debug_toolbar/static/css/toolbar.css?0.18085461973410255 HTTP/1.1" 200 -
+2023-02-26 23:31:47,428 INFO 127.0.0.1 - - [26/Feb/2023 23:31:47] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,772 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "GET /home HTTP/1.1" 200 -
+2023-02-26 23:31:48,785 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,787 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,790 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,791 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,798 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "GET /_debug_toolbar/static/css/toolbar.css?0.5731023571132297 HTTP/1.1" 200 -
+2023-02-26 23:31:48,809 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,960 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "GET /home HTTP/1.1" 200 -
+2023-02-26 23:31:48,971 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,972 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,974 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,975 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:48,984 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "GET /_debug_toolbar/static/css/toolbar.css?0.1141732408460443 HTTP/1.1" 200 -
+2023-02-26 23:31:48,992 INFO 127.0.0.1 - - [26/Feb/2023 23:31:48] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:49,127 INFO 127.0.0.1 - - [26/Feb/2023 23:31:49] "GET /home HTTP/1.1" 200 -
+2023-02-26 23:31:49,138 INFO 127.0.0.1 - - [26/Feb/2023 23:31:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:49,138 INFO 127.0.0.1 - - [26/Feb/2023 23:31:49] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:49,139 INFO 127.0.0.1 - - [26/Feb/2023 23:31:49] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:49,139 INFO 127.0.0.1 - - [26/Feb/2023 23:31:49] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:49,149 INFO 127.0.0.1 - - [26/Feb/2023 23:31:49] "GET /_debug_toolbar/static/css/toolbar.css?0.3686518440952806 HTTP/1.1" 200 -
+2023-02-26 23:31:49,157 INFO 127.0.0.1 - - [26/Feb/2023 23:31:49] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:53,412 INFO 127.0.0.1 - - [26/Feb/2023 23:31:53] "[36mGET /_debug_toolbar/static/img/indicator.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:53,417 INFO 127.0.0.1 - - [26/Feb/2023 23:31:53] "[36mGET /_debug_toolbar/static/img/close.png HTTP/1.1[0m" 304 -
+2023-02-26 23:31:56,815 INFO 127.0.0.1 - - [26/Feb/2023 23:31:56] "GET /_debug_toolbar/static/css/toolbar.css?0.4013408720900633 HTTP/1.1" 200 -
+2023-02-26 23:31:58,878 INFO 127.0.0.1 - - [26/Feb/2023 23:31:58] "GET /search_clients HTTP/1.1" 200 -
+2023-02-26 23:31:58,887 INFO 127.0.0.1 - - [26/Feb/2023 23:31:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:31:58,892 INFO 127.0.0.1 - - [26/Feb/2023 23:31:58] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:58,892 INFO 127.0.0.1 - - [26/Feb/2023 23:31:58] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:58,893 INFO 127.0.0.1 - - [26/Feb/2023 23:31:58] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:31:58,900 INFO 127.0.0.1 - - [26/Feb/2023 23:31:58] "GET /_debug_toolbar/static/css/toolbar.css?0.2506432402738712 HTTP/1.1" 200 -
+2023-02-26 23:31:58,920 INFO 127.0.0.1 - - [26/Feb/2023 23:31:58] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:32:01,030 INFO 127.0.0.1 - - [26/Feb/2023 23:32:01] "GET /home HTTP/1.1" 200 -
+2023-02-26 23:32:01,050 INFO 127.0.0.1 - - [26/Feb/2023 23:32:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:32:01,051 INFO 127.0.0.1 - - [26/Feb/2023 23:32:01] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:32:01,054 INFO 127.0.0.1 - - [26/Feb/2023 23:32:01] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:32:01,055 INFO 127.0.0.1 - - [26/Feb/2023 23:32:01] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:32:01,065 INFO 127.0.0.1 - - [26/Feb/2023 23:32:01] "GET /_debug_toolbar/static/css/toolbar.css?0.21572381563526877 HTTP/1.1" 200 -
+2023-02-26 23:32:01,076 INFO 127.0.0.1 - - [26/Feb/2023 23:32:01] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:32:03,291 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:32:03,311 INFO 127.0.0.1 - - [26/Feb/2023 23:32:03] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:32:03,323 INFO 127.0.0.1 - - [26/Feb/2023 23:32:03] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:32:03,325 INFO 127.0.0.1 - - [26/Feb/2023 23:32:03] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:32:03,332 INFO 127.0.0.1 - - [26/Feb/2023 23:32:03] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:38:02,737 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-26 23:38:03,979 WARNING  * Debugger is active!
+2023-02-26 23:38:03,980 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:38:45,330 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-26 23:38:46,711 WARNING  * Debugger is active!
+2023-02-26 23:38:46,712 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:38:47,360 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:38:47,381 INFO 127.0.0.1 - - [26/Feb/2023 23:38:47] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:38:47,399 INFO 127.0.0.1 - - [26/Feb/2023 23:38:47] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:38:47,400 INFO 127.0.0.1 - - [26/Feb/2023 23:38:47] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:38:47,410 INFO 127.0.0.1 - - [26/Feb/2023 23:38:47] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:38:47,421 INFO 127.0.0.1 - - [26/Feb/2023 23:38:47] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:38:48,653 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:38:48,666 INFO 127.0.0.1 - - [26/Feb/2023 23:38:48] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:38:48,681 INFO 127.0.0.1 - - [26/Feb/2023 23:38:48] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:38:48,682 INFO 127.0.0.1 - - [26/Feb/2023 23:38:48] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:38:48,690 INFO 127.0.0.1 - - [26/Feb/2023 23:38:48] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:38:48,702 INFO 127.0.0.1 - - [26/Feb/2023 23:38:48] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:39:05,423 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-26 23:39:06,295 WARNING  * Debugger is active!
+2023-02-26 23:39:06,296 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:40:23,926 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/forms.py', reloading
+2023-02-26 23:40:24,883 WARNING  * Debugger is active!
+2023-02-26 23:40:24,883 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:40:38,306 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/forms.py', reloading
+2023-02-26 23:40:39,263 WARNING  * Debugger is active!
+2023-02-26 23:40:39,263 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:40:41,955 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:40:41,995 INFO 127.0.0.1 - - [26/Feb/2023 23:40:41] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:40:42,012 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,013 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,024 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,032 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,523 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:40:42,531 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:40:42,547 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,550 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,565 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,574 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,934 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:40:42,942 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:40:42,953 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,954 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,960 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:42,969 INFO 127.0.0.1 - - [26/Feb/2023 23:40:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,111 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:40:43,133 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:40:43,151 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,153 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,166 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,173 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,285 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:40:43,297 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:40:43,310 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,310 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,319 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,324 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,412 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:40:43,416 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:40:43,424 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,425 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,435 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,441 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,593 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:40:43,602 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:40:43,615 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,617 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,627 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:40:43,634 INFO 127.0.0.1 - - [26/Feb/2023 23:40:43] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:42:12,503 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/forms.py', reloading
+2023-02-26 23:43:11,038 WARNING  * Debugger is active!
+2023-02-26 23:43:11,039 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:43:12,871 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:43:12,899 INFO 127.0.0.1 - - [26/Feb/2023 23:43:12] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:43:12,915 INFO 127.0.0.1 - - [26/Feb/2023 23:43:12] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:43:12,916 INFO 127.0.0.1 - - [26/Feb/2023 23:43:12] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:43:12,925 INFO 127.0.0.1 - - [26/Feb/2023 23:43:12] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:12,931 INFO 127.0.0.1 - - [26/Feb/2023 23:43:12] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:13,443 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:43:13,448 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:43:13,457 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:43:13,459 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:43:13,464 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:13,471 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:13,854 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:43:13,865 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:43:13,887 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:43:13,890 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:43:13,906 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:13,914 INFO 127.0.0.1 - - [26/Feb/2023 23:43:13] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,023 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:43:14,037 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:43:14,058 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,061 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,074 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,080 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,199 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:43:14,209 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:43:14,231 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,233 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,246 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,253 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,399 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:43:14,409 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:43:14,423 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,426 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,443 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:43:14,450 INFO 127.0.0.1 - - [26/Feb/2023 23:43:14] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:45:41,893 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:45:41,906 INFO 127.0.0.1 - - [26/Feb/2023 23:45:41] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:45:41,925 INFO 127.0.0.1 - - [26/Feb/2023 23:45:41] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:45:41,927 INFO 127.0.0.1 - - [26/Feb/2023 23:45:41] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:45:41,939 INFO 127.0.0.1 - - [26/Feb/2023 23:45:41] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:45:41,945 INFO 127.0.0.1 - - [26/Feb/2023 23:45:41] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:45:42,603 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:45:42,614 INFO 127.0.0.1 - - [26/Feb/2023 23:45:42] "[35m[1mGET /clients HTTP/1.1[0m" 500 -
+2023-02-26 23:45:42,625 INFO 127.0.0.1 - - [26/Feb/2023 23:45:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:45:42,626 INFO 127.0.0.1 - - [26/Feb/2023 23:45:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-02-26 23:45:42,635 INFO 127.0.0.1 - - [26/Feb/2023 23:45:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:45:42,641 INFO 127.0.0.1 - - [26/Feb/2023 23:45:42] "[36mGET /clients?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-02-26 23:46:52,325 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-26 23:46:53,401 WARNING  * Debugger is active!
+2023-02-26 23:46:53,401 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:47:30,655 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-26 23:47:31,702 WARNING  * Debugger is active!
+2023-02-26 23:47:31,702 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:47:37,927 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-26 23:47:39,023 WARNING  * Debugger is active!
+2023-02-26 23:47:39,023 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:47:39,995 DEBUG http://127.0.0.1:5000/clients
+2023-02-26 23:47:40,085 INFO 127.0.0.1 - - [26/Feb/2023 23:47:40] "GET /clients HTTP/1.1" 200 -
+2023-02-26 23:47:40,111 INFO 127.0.0.1 - - [26/Feb/2023 23:47:40] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:47:40,111 INFO 127.0.0.1 - - [26/Feb/2023 23:47:40] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:47:40,112 INFO 127.0.0.1 - - [26/Feb/2023 23:47:40] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:47:40,112 INFO 127.0.0.1 - - [26/Feb/2023 23:47:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:47:40,124 INFO 127.0.0.1 - - [26/Feb/2023 23:47:40] "GET /_debug_toolbar/static/css/toolbar.css?0.558953888426307 HTTP/1.1" 200 -
+2023-02-26 23:47:40,148 INFO 127.0.0.1 - - [26/Feb/2023 23:47:40] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:47:52,553 INFO 127.0.0.1 - - [26/Feb/2023 23:47:52] "GET /add_property HTTP/1.1" 200 -
+2023-02-26 23:47:52,570 INFO 127.0.0.1 - - [26/Feb/2023 23:47:52] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:47:52,573 INFO 127.0.0.1 - - [26/Feb/2023 23:47:52] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:47:52,575 INFO 127.0.0.1 - - [26/Feb/2023 23:47:52] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:47:52,576 INFO 127.0.0.1 - - [26/Feb/2023 23:47:52] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:47:52,584 INFO 127.0.0.1 - - [26/Feb/2023 23:47:52] "GET /_debug_toolbar/static/css/toolbar.css?0.0657320106643593 HTTP/1.1" 200 -
+2023-02-26 23:47:52,608 INFO 127.0.0.1 - - [26/Feb/2023 23:47:52] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:48:11,326 INFO 127.0.0.1 - - [26/Feb/2023 23:48:11] "POST /add_property HTTP/1.1" 200 -
+2023-02-26 23:48:11,339 INFO 127.0.0.1 - - [26/Feb/2023 23:48:11] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:48:11,341 INFO 127.0.0.1 - - [26/Feb/2023 23:48:11] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:48:11,341 INFO 127.0.0.1 - - [26/Feb/2023 23:48:11] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:48:11,346 INFO 127.0.0.1 - - [26/Feb/2023 23:48:11] "GET /_debug_toolbar/static/css/toolbar.css?0.7820992309835957 HTTP/1.1" 200 -
+2023-02-26 23:48:11,357 INFO 127.0.0.1 - - [26/Feb/2023 23:48:11] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:48:22,478 INFO 127.0.0.1 - - [26/Feb/2023 23:48:22] "GET /view_properties HTTP/1.1" 200 -
+2023-02-26 23:48:22,501 INFO 127.0.0.1 - - [26/Feb/2023 23:48:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:48:22,503 INFO 127.0.0.1 - - [26/Feb/2023 23:48:22] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:48:22,505 INFO 127.0.0.1 - - [26/Feb/2023 23:48:22] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:48:22,506 INFO 127.0.0.1 - - [26/Feb/2023 23:48:22] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:48:22,517 INFO 127.0.0.1 - - [26/Feb/2023 23:48:22] "GET /_debug_toolbar/static/css/toolbar.css?0.41849206687455287 HTTP/1.1" 200 -
+2023-02-26 23:48:22,540 INFO 127.0.0.1 - - [26/Feb/2023 23:48:22] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:48:29,254 INFO 127.0.0.1 - - [26/Feb/2023 23:48:29] "GET /edit_property/2 HTTP/1.1" 200 -
+2023-02-26 23:48:29,268 INFO 127.0.0.1 - - [26/Feb/2023 23:48:29] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:48:29,272 INFO 127.0.0.1 - - [26/Feb/2023 23:48:29] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:48:29,273 INFO 127.0.0.1 - - [26/Feb/2023 23:48:29] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:48:29,277 INFO 127.0.0.1 - - [26/Feb/2023 23:48:29] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:48:29,283 INFO 127.0.0.1 - - [26/Feb/2023 23:48:29] "GET /_debug_toolbar/static/css/toolbar.css?0.13467567674024084 HTTP/1.1" 200 -
+2023-02-26 23:48:29,294 INFO 127.0.0.1 - - [26/Feb/2023 23:48:29] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:50:40,880 INFO 127.0.0.1 - - [26/Feb/2023 23:50:40] "GET /view_properties HTTP/1.1" 200 -
+2023-02-26 23:50:40,897 INFO 127.0.0.1 - - [26/Feb/2023 23:50:40] "GET /_debug_toolbar/static/css/toolbar.css?0.5934090575803534 HTTP/1.1" 200 -
+2023-02-26 23:50:51,764 INFO 127.0.0.1 - - [26/Feb/2023 23:50:51] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-26 23:50:51,784 INFO 127.0.0.1 - - [26/Feb/2023 23:50:51] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:50:51,789 INFO 127.0.0.1 - - [26/Feb/2023 23:50:51] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:50:51,790 INFO 127.0.0.1 - - [26/Feb/2023 23:50:51] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:50:51,792 INFO 127.0.0.1 - - [26/Feb/2023 23:50:51] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:50:51,798 INFO 127.0.0.1 - - [26/Feb/2023 23:50:51] "GET /_debug_toolbar/static/css/toolbar.css?0.14316826899794521 HTTP/1.1" 200 -
+2023-02-26 23:50:51,810 INFO 127.0.0.1 - - [26/Feb/2023 23:50:51] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:50:54,158 INFO 127.0.0.1 - - [26/Feb/2023 23:50:54] "GET /_debug_toolbar/static/css/toolbar.css?0.3072631856740229 HTTP/1.1" 200 -
+2023-02-26 23:52:45,548 INFO 127.0.0.1 - - [26/Feb/2023 23:52:45] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-26 23:52:45,564 INFO 127.0.0.1 - - [26/Feb/2023 23:52:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:52:45,568 INFO 127.0.0.1 - - [26/Feb/2023 23:52:45] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:52:45,569 INFO 127.0.0.1 - - [26/Feb/2023 23:52:45] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:52:45,570 INFO 127.0.0.1 - - [26/Feb/2023 23:52:45] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:52:45,578 INFO 127.0.0.1 - - [26/Feb/2023 23:52:45] "GET /_debug_toolbar/static/css/toolbar.css?0.6315620426883588 HTTP/1.1" 200 -
+2023-02-26 23:52:45,589 INFO 127.0.0.1 - - [26/Feb/2023 23:52:45] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:54:55,365 INFO 127.0.0.1 - - [26/Feb/2023 23:54:55] "GET /edit_property/2 HTTP/1.1" 200 -
+2023-02-26 23:54:55,382 INFO 127.0.0.1 - - [26/Feb/2023 23:54:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:54:55,386 INFO 127.0.0.1 - - [26/Feb/2023 23:54:55] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:54:55,388 INFO 127.0.0.1 - - [26/Feb/2023 23:54:55] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:54:55,388 INFO 127.0.0.1 - - [26/Feb/2023 23:54:55] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:54:55,395 INFO 127.0.0.1 - - [26/Feb/2023 23:54:55] "GET /_debug_toolbar/static/css/toolbar.css?0.961666817760715 HTTP/1.1" 200 -
+2023-02-26 23:54:55,403 INFO 127.0.0.1 - - [26/Feb/2023 23:54:55] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:57:50,423 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-26 23:57:51,668 WARNING  * Debugger is active!
+2023-02-26 23:57:51,668 INFO  * Debugger PIN: 325-298-129
+2023-02-26 23:57:54,561 INFO 127.0.0.1 - - [26/Feb/2023 23:57:54] "GET /edit_property/2 HTTP/1.1" 200 -
+2023-02-26 23:57:54,581 INFO 127.0.0.1 - - [26/Feb/2023 23:57:54] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:57:54,583 INFO 127.0.0.1 - - [26/Feb/2023 23:57:54] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:57:54,584 INFO 127.0.0.1 - - [26/Feb/2023 23:57:54] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:57:54,585 INFO 127.0.0.1 - - [26/Feb/2023 23:57:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:57:54,594 INFO 127.0.0.1 - - [26/Feb/2023 23:57:54] "GET /_debug_toolbar/static/css/toolbar.css?0.8555406464874207 HTTP/1.1" 200 -
+2023-02-26 23:57:54,606 INFO 127.0.0.1 - - [26/Feb/2023 23:57:54] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-26 23:57:55,199 INFO 127.0.0.1 - - [26/Feb/2023 23:57:55] "GET /edit_property/2 HTTP/1.1" 200 -
+2023-02-26 23:57:55,212 INFO 127.0.0.1 - - [26/Feb/2023 23:57:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-26 23:57:55,215 INFO 127.0.0.1 - - [26/Feb/2023 23:57:55] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-26 23:57:55,217 INFO 127.0.0.1 - - [26/Feb/2023 23:57:55] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-26 23:57:55,218 INFO 127.0.0.1 - - [26/Feb/2023 23:57:55] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-26 23:57:55,225 INFO 127.0.0.1 - - [26/Feb/2023 23:57:55] "GET /_debug_toolbar/static/css/toolbar.css?0.9436633833025647 HTTP/1.1" 200 -
+2023-02-26 23:57:55,251 INFO 127.0.0.1 - - [26/Feb/2023 23:57:55] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:00:10,959 INFO 127.0.0.1 - - [27/Feb/2023 00:00:10] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:00:10,979 INFO 127.0.0.1 - - [27/Feb/2023 00:00:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:00:10,988 INFO 127.0.0.1 - - [27/Feb/2023 00:00:10] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:00:10,990 INFO 127.0.0.1 - - [27/Feb/2023 00:00:10] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:00:10,992 INFO 127.0.0.1 - - [27/Feb/2023 00:00:10] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:00:11,002 INFO 127.0.0.1 - - [27/Feb/2023 00:00:11] "GET /_debug_toolbar/static/css/toolbar.css?0.8184713090197258 HTTP/1.1" 200 -
+2023-02-27 00:00:11,013 INFO 127.0.0.1 - - [27/Feb/2023 00:00:11] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:00:12,308 DEBUG http://127.0.0.1:5000/properties
+2023-02-27 00:00:12,335 INFO 127.0.0.1 - - [27/Feb/2023 00:00:12] "GET /properties HTTP/1.1" 200 -
+2023-02-27 00:00:12,350 INFO 127.0.0.1 - - [27/Feb/2023 00:00:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:00:12,354 INFO 127.0.0.1 - - [27/Feb/2023 00:00:12] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:00:12,354 INFO 127.0.0.1 - - [27/Feb/2023 00:00:12] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:00:12,355 INFO 127.0.0.1 - - [27/Feb/2023 00:00:12] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:00:12,365 INFO 127.0.0.1 - - [27/Feb/2023 00:00:12] "GET /_debug_toolbar/static/css/toolbar.css?0.41182457409777906 HTTP/1.1" 200 -
+2023-02-27 00:00:12,386 INFO 127.0.0.1 - - [27/Feb/2023 00:00:12] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:00:14,848 INFO 127.0.0.1 - - [27/Feb/2023 00:00:14] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:00:14,857 INFO 127.0.0.1 - - [27/Feb/2023 00:00:14] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:00:14,860 INFO 127.0.0.1 - - [27/Feb/2023 00:00:14] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:00:14,862 INFO 127.0.0.1 - - [27/Feb/2023 00:00:14] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:00:14,863 INFO 127.0.0.1 - - [27/Feb/2023 00:00:14] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:00:14,871 INFO 127.0.0.1 - - [27/Feb/2023 00:00:14] "GET /_debug_toolbar/static/css/toolbar.css?0.2894744842676833 HTTP/1.1" 200 -
+2023-02-27 00:00:14,891 INFO 127.0.0.1 - - [27/Feb/2023 00:00:14] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:00:18,754 ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-02-27 00:00:18,755 INFO 127.0.0.1 - - [27/Feb/2023 00:00:18] "[33mGET /edit_property HTTP/1.1[0m" 404 -
+2023-02-27 00:02:11,951 INFO 127.0.0.1 - - [27/Feb/2023 00:02:11] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:02:11,964 INFO 127.0.0.1 - - [27/Feb/2023 00:02:11] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:11,964 INFO 127.0.0.1 - - [27/Feb/2023 00:02:11] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:02:11,966 INFO 127.0.0.1 - - [27/Feb/2023 00:02:11] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:11,967 INFO 127.0.0.1 - - [27/Feb/2023 00:02:11] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:11,974 INFO 127.0.0.1 - - [27/Feb/2023 00:02:11] "GET /_debug_toolbar/static/css/toolbar.css?0.565620358920123 HTTP/1.1" 200 -
+2023-02-27 00:02:11,995 INFO 127.0.0.1 - - [27/Feb/2023 00:02:11] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,130 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:02:23,142 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,146 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,148 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,149 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,156 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "GET /_debug_toolbar/static/css/toolbar.css?0.7483590600544332 HTTP/1.1" 200 -
+2023-02-27 00:02:23,168 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,686 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:02:23,699 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,701 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,703 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,704 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:23,711 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "GET /_debug_toolbar/static/css/toolbar.css?0.9636143151914027 HTTP/1.1" 200 -
+2023-02-27 00:02:23,722 INFO 127.0.0.1 - - [27/Feb/2023 00:02:23] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:02:24,178 INFO 127.0.0.1 - - [27/Feb/2023 00:02:24] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:02:24,197 INFO 127.0.0.1 - - [27/Feb/2023 00:02:24] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:24,198 INFO 127.0.0.1 - - [27/Feb/2023 00:02:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:02:24,200 INFO 127.0.0.1 - - [27/Feb/2023 00:02:24] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:24,201 INFO 127.0.0.1 - - [27/Feb/2023 00:02:24] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:02:24,209 INFO 127.0.0.1 - - [27/Feb/2023 00:02:24] "GET /_debug_toolbar/static/css/toolbar.css?0.30717891711207623 HTTP/1.1" 200 -
+2023-02-27 00:02:24,220 INFO 127.0.0.1 - - [27/Feb/2023 00:02:24] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:03:21,743 INFO 127.0.0.1 - - [27/Feb/2023 00:03:21] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:03:21,790 INFO 127.0.0.1 - - [27/Feb/2023 00:03:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:03:21,812 INFO 127.0.0.1 - - [27/Feb/2023 00:03:21] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:03:21,834 INFO 127.0.0.1 - - [27/Feb/2023 00:03:21] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:03:21,853 INFO 127.0.0.1 - - [27/Feb/2023 00:03:21] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:03:21,886 INFO 127.0.0.1 - - [27/Feb/2023 00:03:21] "GET /_debug_toolbar/static/css/toolbar.css?0.6515463028709303 HTTP/1.1" 200 -
+2023-02-27 00:03:22,100 INFO 127.0.0.1 - - [27/Feb/2023 00:03:22] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:03:23,569 INFO 127.0.0.1 - - [27/Feb/2023 00:03:23] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:03:23,586 INFO 127.0.0.1 - - [27/Feb/2023 00:03:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:03:23,591 INFO 127.0.0.1 - - [27/Feb/2023 00:03:23] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:03:23,592 INFO 127.0.0.1 - - [27/Feb/2023 00:03:23] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:03:23,592 INFO 127.0.0.1 - - [27/Feb/2023 00:03:23] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:03:23,599 INFO 127.0.0.1 - - [27/Feb/2023 00:03:23] "GET /_debug_toolbar/static/css/toolbar.css?0.6641425052422538 HTTP/1.1" 200 -
+2023-02-27 00:03:23,611 INFO 127.0.0.1 - - [27/Feb/2023 00:03:23] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:04:17,591 INFO 127.0.0.1 - - [27/Feb/2023 00:04:17] "GET /add_property HTTP/1.1" 200 -
+2023-02-27 00:04:17,612 INFO 127.0.0.1 - - [27/Feb/2023 00:04:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:04:17,613 INFO 127.0.0.1 - - [27/Feb/2023 00:04:17] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:04:17,615 INFO 127.0.0.1 - - [27/Feb/2023 00:04:17] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:04:17,617 INFO 127.0.0.1 - - [27/Feb/2023 00:04:17] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:04:17,621 INFO 127.0.0.1 - - [27/Feb/2023 00:04:17] "GET /_debug_toolbar/static/css/toolbar.css?0.6632728083588655 HTTP/1.1" 200 -
+2023-02-27 00:04:17,640 INFO 127.0.0.1 - - [27/Feb/2023 00:04:17] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:05:26,235 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-27 00:05:27,256 WARNING  * Debugger is active!
+2023-02-27 00:05:27,256 INFO  * Debugger PIN: 325-298-129
+2023-02-27 00:05:43,738 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-27 00:05:44,896 WARNING  * Debugger is active!
+2023-02-27 00:05:44,896 INFO  * Debugger PIN: 325-298-129
+2023-02-27 00:06:09,990 INFO 127.0.0.1 - - [27/Feb/2023 00:06:09] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:06:10,007 INFO 127.0.0.1 - - [27/Feb/2023 00:06:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:06:10,013 INFO 127.0.0.1 - - [27/Feb/2023 00:06:10] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:10,014 INFO 127.0.0.1 - - [27/Feb/2023 00:06:10] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:10,014 INFO 127.0.0.1 - - [27/Feb/2023 00:06:10] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:10,021 INFO 127.0.0.1 - - [27/Feb/2023 00:06:10] "GET /_debug_toolbar/static/css/toolbar.css?0.5063728033452441 HTTP/1.1" 200 -
+2023-02-27 00:06:10,028 INFO 127.0.0.1 - - [27/Feb/2023 00:06:10] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:06:12,897 DEBUG http://127.0.0.1:5000/properties
+2023-02-27 00:06:12,924 INFO 127.0.0.1 - - [27/Feb/2023 00:06:12] "GET /properties HTTP/1.1" 200 -
+2023-02-27 00:06:12,945 INFO 127.0.0.1 - - [27/Feb/2023 00:06:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:06:12,949 INFO 127.0.0.1 - - [27/Feb/2023 00:06:12] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:12,950 INFO 127.0.0.1 - - [27/Feb/2023 00:06:12] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:12,951 INFO 127.0.0.1 - - [27/Feb/2023 00:06:12] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:12,959 INFO 127.0.0.1 - - [27/Feb/2023 00:06:12] "GET /_debug_toolbar/static/css/toolbar.css?0.39051878958695174 HTTP/1.1" 200 -
+2023-02-27 00:06:12,979 INFO 127.0.0.1 - - [27/Feb/2023 00:06:12] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:06:20,048 INFO 127.0.0.1 - - [27/Feb/2023 00:06:20] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:06:20,060 INFO 127.0.0.1 - - [27/Feb/2023 00:06:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:06:20,062 INFO 127.0.0.1 - - [27/Feb/2023 00:06:20] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:20,064 INFO 127.0.0.1 - - [27/Feb/2023 00:06:20] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:20,065 INFO 127.0.0.1 - - [27/Feb/2023 00:06:20] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:20,072 INFO 127.0.0.1 - - [27/Feb/2023 00:06:20] "GET /_debug_toolbar/static/css/toolbar.css?0.6319743228570309 HTTP/1.1" 200 -
+2023-02-27 00:06:20,081 INFO 127.0.0.1 - - [27/Feb/2023 00:06:20] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:06:24,327 INFO 127.0.0.1 - - [27/Feb/2023 00:06:24] "GET /view_properties HTTP/1.1" 200 -
+2023-02-27 00:06:24,347 INFO 127.0.0.1 - - [27/Feb/2023 00:06:24] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:06:24,348 INFO 127.0.0.1 - - [27/Feb/2023 00:06:24] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:24,348 INFO 127.0.0.1 - - [27/Feb/2023 00:06:24] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:24,349 INFO 127.0.0.1 - - [27/Feb/2023 00:06:24] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:24,357 INFO 127.0.0.1 - - [27/Feb/2023 00:06:24] "GET /_debug_toolbar/static/css/toolbar.css?0.5702119136718204 HTTP/1.1" 200 -
+2023-02-27 00:06:24,378 INFO 127.0.0.1 - - [27/Feb/2023 00:06:24] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:06:28,787 INFO 127.0.0.1 - - [27/Feb/2023 00:06:28] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:06:28,798 INFO 127.0.0.1 - - [27/Feb/2023 00:06:28] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:06:28,802 INFO 127.0.0.1 - - [27/Feb/2023 00:06:28] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:28,804 INFO 127.0.0.1 - - [27/Feb/2023 00:06:28] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:28,805 INFO 127.0.0.1 - - [27/Feb/2023 00:06:28] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:06:28,813 INFO 127.0.0.1 - - [27/Feb/2023 00:06:28] "GET /_debug_toolbar/static/css/toolbar.css?0.3660871968183075 HTTP/1.1" 200 -
+2023-02-27 00:06:28,825 INFO 127.0.0.1 - - [27/Feb/2023 00:06:28] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:07:59,645 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-27 00:08:00,683 WARNING  * Debugger is active!
+2023-02-27 00:08:00,684 INFO  * Debugger PIN: 325-298-129
+2023-02-27 00:08:41,997 INFO 127.0.0.1 - - [27/Feb/2023 00:08:41] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:08:42,020 INFO 127.0.0.1 - - [27/Feb/2023 00:08:42] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:42,021 INFO 127.0.0.1 - - [27/Feb/2023 00:08:42] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:42,022 INFO 127.0.0.1 - - [27/Feb/2023 00:08:42] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:42,023 INFO 127.0.0.1 - - [27/Feb/2023 00:08:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:08:42,030 INFO 127.0.0.1 - - [27/Feb/2023 00:08:42] "GET /_debug_toolbar/static/css/toolbar.css?0.2282948267029956 HTTP/1.1" 200 -
+2023-02-27 00:08:42,041 INFO 127.0.0.1 - - [27/Feb/2023 00:08:42] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:08:43,327 INFO 127.0.0.1 - - [27/Feb/2023 00:08:43] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:08:43,340 INFO 127.0.0.1 - - [27/Feb/2023 00:08:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:08:43,343 INFO 127.0.0.1 - - [27/Feb/2023 00:08:43] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:43,345 INFO 127.0.0.1 - - [27/Feb/2023 00:08:43] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:43,346 INFO 127.0.0.1 - - [27/Feb/2023 00:08:43] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:43,353 INFO 127.0.0.1 - - [27/Feb/2023 00:08:43] "GET /_debug_toolbar/static/css/toolbar.css?0.25977918557305446 HTTP/1.1" 200 -
+2023-02-27 00:08:43,364 INFO 127.0.0.1 - - [27/Feb/2023 00:08:43] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:08:44,192 INFO 127.0.0.1 - - [27/Feb/2023 00:08:44] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:08:44,211 INFO 127.0.0.1 - - [27/Feb/2023 00:08:44] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:44,211 INFO 127.0.0.1 - - [27/Feb/2023 00:08:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:08:44,213 INFO 127.0.0.1 - - [27/Feb/2023 00:08:44] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:44,214 INFO 127.0.0.1 - - [27/Feb/2023 00:08:44] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:44,221 INFO 127.0.0.1 - - [27/Feb/2023 00:08:44] "GET /_debug_toolbar/static/css/toolbar.css?0.4329521049409455 HTTP/1.1" 200 -
+2023-02-27 00:08:44,248 INFO 127.0.0.1 - - [27/Feb/2023 00:08:44] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:08:59,111 INFO 127.0.0.1 - - [27/Feb/2023 00:08:59] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:08:59,128 INFO 127.0.0.1 - - [27/Feb/2023 00:08:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:08:59,131 INFO 127.0.0.1 - - [27/Feb/2023 00:08:59] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:59,134 INFO 127.0.0.1 - - [27/Feb/2023 00:08:59] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:59,135 INFO 127.0.0.1 - - [27/Feb/2023 00:08:59] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:08:59,141 INFO 127.0.0.1 - - [27/Feb/2023 00:08:59] "GET /_debug_toolbar/static/css/toolbar.css?0.47110640168056217 HTTP/1.1" 200 -
+2023-02-27 00:08:59,152 INFO 127.0.0.1 - - [27/Feb/2023 00:08:59] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:09:01,095 DEBUG http://127.0.0.1:5000/properties
+2023-02-27 00:09:01,125 INFO 127.0.0.1 - - [27/Feb/2023 00:09:01] "GET /properties HTTP/1.1" 200 -
+2023-02-27 00:09:01,137 INFO 127.0.0.1 - - [27/Feb/2023 00:09:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:09:01,139 INFO 127.0.0.1 - - [27/Feb/2023 00:09:01] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:01,142 INFO 127.0.0.1 - - [27/Feb/2023 00:09:01] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:01,143 INFO 127.0.0.1 - - [27/Feb/2023 00:09:01] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:01,148 INFO 127.0.0.1 - - [27/Feb/2023 00:09:01] "GET /_debug_toolbar/static/css/toolbar.css?0.6890864320867822 HTTP/1.1" 200 -
+2023-02-27 00:09:01,170 INFO 127.0.0.1 - - [27/Feb/2023 00:09:01] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:09:06,680 INFO 127.0.0.1 - - [27/Feb/2023 00:09:06] "GET /edit_property/2 HTTP/1.1" 200 -
+2023-02-27 00:09:06,698 INFO 127.0.0.1 - - [27/Feb/2023 00:09:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:09:06,699 INFO 127.0.0.1 - - [27/Feb/2023 00:09:06] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:06,702 INFO 127.0.0.1 - - [27/Feb/2023 00:09:06] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:06,704 INFO 127.0.0.1 - - [27/Feb/2023 00:09:06] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:06,708 INFO 127.0.0.1 - - [27/Feb/2023 00:09:06] "GET /_debug_toolbar/static/css/toolbar.css?0.43326562520074186 HTTP/1.1" 200 -
+2023-02-27 00:09:06,734 INFO 127.0.0.1 - - [27/Feb/2023 00:09:06] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:09:33,180 INFO 127.0.0.1 - - [27/Feb/2023 00:09:33] "GET /logout HTTP/1.1" 200 -
+2023-02-27 00:09:33,194 INFO 127.0.0.1 - - [27/Feb/2023 00:09:33] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:33,196 INFO 127.0.0.1 - - [27/Feb/2023 00:09:33] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:33,198 INFO 127.0.0.1 - - [27/Feb/2023 00:09:33] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:33,205 INFO 127.0.0.1 - - [27/Feb/2023 00:09:33] "GET /_debug_toolbar/static/css/toolbar.css?0.2711387342460403 HTTP/1.1" 200 -
+2023-02-27 00:09:33,216 INFO 127.0.0.1 - - [27/Feb/2023 00:09:33] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:09:40,790 INFO 127.0.0.1 - - [27/Feb/2023 00:09:40] "GET / HTTP/1.1" 200 -
+2023-02-27 00:09:40,815 INFO 127.0.0.1 - - [27/Feb/2023 00:09:40] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2023-02-27 00:09:40,819 INFO 127.0.0.1 - - [27/Feb/2023 00:09:40] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:40,820 INFO 127.0.0.1 - - [27/Feb/2023 00:09:40] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:40,820 INFO 127.0.0.1 - - [27/Feb/2023 00:09:40] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:40,829 INFO 127.0.0.1 - - [27/Feb/2023 00:09:40] "GET /_debug_toolbar/static/css/toolbar.css?0.43344549051713077 HTTP/1.1" 200 -
+2023-02-27 00:09:40,858 INFO 127.0.0.1 - - [27/Feb/2023 00:09:40] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:09:44,670 INFO 127.0.0.1 - - [27/Feb/2023 00:09:44] "GET /register_user HTTP/1.1" 200 -
+2023-02-27 00:09:44,685 INFO 127.0.0.1 - - [27/Feb/2023 00:09:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:09:44,690 INFO 127.0.0.1 - - [27/Feb/2023 00:09:44] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:44,692 INFO 127.0.0.1 - - [27/Feb/2023 00:09:44] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:44,694 INFO 127.0.0.1 - - [27/Feb/2023 00:09:44] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:44,700 INFO 127.0.0.1 - - [27/Feb/2023 00:09:44] "GET /_debug_toolbar/static/css/toolbar.css?0.9957274599840564 HTTP/1.1" 200 -
+2023-02-27 00:09:44,721 INFO 127.0.0.1 - - [27/Feb/2023 00:09:44] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:09:45,963 INFO 127.0.0.1 - - [27/Feb/2023 00:09:45] "GET /logout HTTP/1.1" 200 -
+2023-02-27 00:09:45,993 INFO 127.0.0.1 - - [27/Feb/2023 00:09:45] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:45,995 INFO 127.0.0.1 - - [27/Feb/2023 00:09:45] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:45,997 INFO 127.0.0.1 - - [27/Feb/2023 00:09:45] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:46,003 INFO 127.0.0.1 - - [27/Feb/2023 00:09:46] "GET /_debug_toolbar/static/css/toolbar.css?0.9217323889021434 HTTP/1.1" 200 -
+2023-02-27 00:09:46,012 INFO 127.0.0.1 - - [27/Feb/2023 00:09:46] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:09:48,248 INFO 127.0.0.1 - - [27/Feb/2023 00:09:48] "GET / HTTP/1.1" 200 -
+2023-02-27 00:09:48,263 INFO 127.0.0.1 - - [27/Feb/2023 00:09:48] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2023-02-27 00:09:48,268 INFO 127.0.0.1 - - [27/Feb/2023 00:09:48] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:48,271 INFO 127.0.0.1 - - [27/Feb/2023 00:09:48] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:48,272 INFO 127.0.0.1 - - [27/Feb/2023 00:09:48] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:48,278 INFO 127.0.0.1 - - [27/Feb/2023 00:09:48] "GET /_debug_toolbar/static/css/toolbar.css?0.08380154348316182 HTTP/1.1" 200 -
+2023-02-27 00:09:48,289 INFO 127.0.0.1 - - [27/Feb/2023 00:09:48] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:09:49,419 DEBUG Errors: {}
+2023-02-27 00:09:49,447 INFO 127.0.0.1 - - [27/Feb/2023 00:09:49] "GET /login HTTP/1.1" 200 -
+2023-02-27 00:09:49,467 INFO 127.0.0.1 - - [27/Feb/2023 00:09:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:09:49,470 INFO 127.0.0.1 - - [27/Feb/2023 00:09:49] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:49,471 INFO 127.0.0.1 - - [27/Feb/2023 00:09:49] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:49,473 INFO 127.0.0.1 - - [27/Feb/2023 00:09:49] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:49,488 INFO 127.0.0.1 - - [27/Feb/2023 00:09:49] "GET /_debug_toolbar/static/css/toolbar.css?0.19320247636942844 HTTP/1.1" 200 -
+2023-02-27 00:09:49,509 INFO 127.0.0.1 - - [27/Feb/2023 00:09:49] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:09:53,213 DEBUG Username entered: pit.trindade@gmail.com
+2023-02-27 00:09:53,214 DEBUG Password entered: animal
+2023-02-27 00:09:53,472 DEBUG Login successful for username: pit.trindade@gmail.com
+2023-02-27 00:09:53,477 INFO 127.0.0.1 - - [27/Feb/2023 00:09:53] "POST /login HTTP/1.1" 200 -
+2023-02-27 00:09:53,487 INFO 127.0.0.1 - - [27/Feb/2023 00:09:53] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:53,489 INFO 127.0.0.1 - - [27/Feb/2023 00:09:53] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:53,490 INFO 127.0.0.1 - - [27/Feb/2023 00:09:53] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:09:53,496 INFO 127.0.0.1 - - [27/Feb/2023 00:09:53] "GET /_debug_toolbar/static/css/toolbar.css?0.7192197187354121 HTTP/1.1" 200 -
+2023-02-27 00:09:53,506 INFO 127.0.0.1 - - [27/Feb/2023 00:09:53] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:10:04,845 INFO 127.0.0.1 - - [27/Feb/2023 00:10:04] "GET / HTTP/1.1" 200 -
+2023-02-27 00:10:04,864 INFO 127.0.0.1 - - [27/Feb/2023 00:10:04] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2023-02-27 00:10:04,864 INFO 127.0.0.1 - - [27/Feb/2023 00:10:04] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:04,865 INFO 127.0.0.1 - - [27/Feb/2023 00:10:04] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:04,866 INFO 127.0.0.1 - - [27/Feb/2023 00:10:04] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:04,872 INFO 127.0.0.1 - - [27/Feb/2023 00:10:04] "GET /_debug_toolbar/static/css/toolbar.css?0.9050977873423338 HTTP/1.1" 200 -
+2023-02-27 00:10:04,880 INFO 127.0.0.1 - - [27/Feb/2023 00:10:04] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:10:06,430 INFO 127.0.0.1 - - [27/Feb/2023 00:10:06] "GET /login HTTP/1.1" 200 -
+2023-02-27 00:10:06,447 INFO 127.0.0.1 - - [27/Feb/2023 00:10:06] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:06,448 INFO 127.0.0.1 - - [27/Feb/2023 00:10:06] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:06,450 INFO 127.0.0.1 - - [27/Feb/2023 00:10:06] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:06,456 INFO 127.0.0.1 - - [27/Feb/2023 00:10:06] "GET /_debug_toolbar/static/css/toolbar.css?0.2800375149069292 HTTP/1.1" 200 -
+2023-02-27 00:10:06,466 INFO 127.0.0.1 - - [27/Feb/2023 00:10:06] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:10:08,606 INFO 127.0.0.1 - - [27/Feb/2023 00:10:08] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:10:08,624 INFO 127.0.0.1 - - [27/Feb/2023 00:10:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:10:08,626 INFO 127.0.0.1 - - [27/Feb/2023 00:10:08] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:08,629 INFO 127.0.0.1 - - [27/Feb/2023 00:10:08] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:08,630 INFO 127.0.0.1 - - [27/Feb/2023 00:10:08] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:08,638 INFO 127.0.0.1 - - [27/Feb/2023 00:10:08] "GET /_debug_toolbar/static/css/toolbar.css?0.20895283334567183 HTTP/1.1" 200 -
+2023-02-27 00:10:08,649 INFO 127.0.0.1 - - [27/Feb/2023 00:10:08] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:10:13,194 INFO 127.0.0.1 - - [27/Feb/2023 00:10:13] "GET /view_clients HTTP/1.1" 200 -
+2023-02-27 00:10:13,209 INFO 127.0.0.1 - - [27/Feb/2023 00:10:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:10:13,210 INFO 127.0.0.1 - - [27/Feb/2023 00:10:13] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:13,211 INFO 127.0.0.1 - - [27/Feb/2023 00:10:13] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:13,211 INFO 127.0.0.1 - - [27/Feb/2023 00:10:13] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:13,220 INFO 127.0.0.1 - - [27/Feb/2023 00:10:13] "GET /_debug_toolbar/static/css/toolbar.css?0.7356472748239198 HTTP/1.1" 200 -
+2023-02-27 00:10:13,241 INFO 127.0.0.1 - - [27/Feb/2023 00:10:13] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:10:16,591 INFO 127.0.0.1 - - [27/Feb/2023 00:10:16] "GET /edit_client?client_id=4 HTTP/1.1" 200 -
+2023-02-27 00:10:16,612 INFO 127.0.0.1 - - [27/Feb/2023 00:10:16] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:16,612 INFO 127.0.0.1 - - [27/Feb/2023 00:10:16] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:10:16,613 INFO 127.0.0.1 - - [27/Feb/2023 00:10:16] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:16,614 INFO 127.0.0.1 - - [27/Feb/2023 00:10:16] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:16,621 INFO 127.0.0.1 - - [27/Feb/2023 00:10:16] "GET /_debug_toolbar/static/css/toolbar.css?0.3918650880481378 HTTP/1.1" 200 -
+2023-02-27 00:10:16,644 INFO 127.0.0.1 - - [27/Feb/2023 00:10:16] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:10:23,825 INFO 127.0.0.1 - - [27/Feb/2023 00:10:23] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:10:23,842 INFO 127.0.0.1 - - [27/Feb/2023 00:10:23] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:10:23,846 INFO 127.0.0.1 - - [27/Feb/2023 00:10:23] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:23,849 INFO 127.0.0.1 - - [27/Feb/2023 00:10:23] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:23,850 INFO 127.0.0.1 - - [27/Feb/2023 00:10:23] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:23,856 INFO 127.0.0.1 - - [27/Feb/2023 00:10:23] "GET /_debug_toolbar/static/css/toolbar.css?0.898042501728713 HTTP/1.1" 200 -
+2023-02-27 00:10:23,884 INFO 127.0.0.1 - - [27/Feb/2023 00:10:23] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:10:25,445 INFO 127.0.0.1 - - [27/Feb/2023 00:10:25] "GET /view_clients HTTP/1.1" 200 -
+2023-02-27 00:10:25,466 INFO 127.0.0.1 - - [27/Feb/2023 00:10:25] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:25,467 INFO 127.0.0.1 - - [27/Feb/2023 00:10:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:10:25,469 INFO 127.0.0.1 - - [27/Feb/2023 00:10:25] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:25,471 INFO 127.0.0.1 - - [27/Feb/2023 00:10:25] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:25,479 INFO 127.0.0.1 - - [27/Feb/2023 00:10:25] "GET /_debug_toolbar/static/css/toolbar.css?0.7212540345828882 HTTP/1.1" 200 -
+2023-02-27 00:10:25,500 INFO 127.0.0.1 - - [27/Feb/2023 00:10:25] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:10:44,561 INFO 127.0.0.1 - - [27/Feb/2023 00:10:44] "GET /edit_client?client_id=2 HTTP/1.1" 200 -
+2023-02-27 00:10:44,582 INFO 127.0.0.1 - - [27/Feb/2023 00:10:44] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:44,583 INFO 127.0.0.1 - - [27/Feb/2023 00:10:44] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:10:44,584 INFO 127.0.0.1 - - [27/Feb/2023 00:10:44] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:44,586 INFO 127.0.0.1 - - [27/Feb/2023 00:10:44] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:10:44,593 INFO 127.0.0.1 - - [27/Feb/2023 00:10:44] "GET /_debug_toolbar/static/css/toolbar.css?0.554558981511291 HTTP/1.1" 200 -
+2023-02-27 00:10:44,622 INFO 127.0.0.1 - - [27/Feb/2023 00:10:44] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:11:14,480 INFO 127.0.0.1 - - [27/Feb/2023 00:11:14] "GET /logout HTTP/1.1" 200 -
+2023-02-27 00:11:14,501 INFO 127.0.0.1 - - [27/Feb/2023 00:11:14] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:14,505 INFO 127.0.0.1 - - [27/Feb/2023 00:11:14] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:14,506 INFO 127.0.0.1 - - [27/Feb/2023 00:11:14] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:14,512 INFO 127.0.0.1 - - [27/Feb/2023 00:11:14] "GET /_debug_toolbar/static/css/toolbar.css?0.4430184327949045 HTTP/1.1" 200 -
+2023-02-27 00:11:14,525 INFO 127.0.0.1 - - [27/Feb/2023 00:11:14] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:11:16,998 INFO 127.0.0.1 - - [27/Feb/2023 00:11:16] "GET / HTTP/1.1" 200 -
+2023-02-27 00:11:17,008 INFO 127.0.0.1 - - [27/Feb/2023 00:11:17] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2023-02-27 00:11:17,013 INFO 127.0.0.1 - - [27/Feb/2023 00:11:17] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:17,014 INFO 127.0.0.1 - - [27/Feb/2023 00:11:17] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:17,015 INFO 127.0.0.1 - - [27/Feb/2023 00:11:17] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:17,022 INFO 127.0.0.1 - - [27/Feb/2023 00:11:17] "GET /_debug_toolbar/static/css/toolbar.css?0.1275081830151399 HTTP/1.1" 200 -
+2023-02-27 00:11:17,033 INFO 127.0.0.1 - - [27/Feb/2023 00:11:17] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:11:18,779 INFO 127.0.0.1 - - [27/Feb/2023 00:11:18] "GET /register_user HTTP/1.1" 200 -
+2023-02-27 00:11:18,799 INFO 127.0.0.1 - - [27/Feb/2023 00:11:18] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:11:18,804 INFO 127.0.0.1 - - [27/Feb/2023 00:11:18] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:18,804 INFO 127.0.0.1 - - [27/Feb/2023 00:11:18] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:18,807 INFO 127.0.0.1 - - [27/Feb/2023 00:11:18] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:18,815 INFO 127.0.0.1 - - [27/Feb/2023 00:11:18] "GET /_debug_toolbar/static/css/toolbar.css?0.4017630345055738 HTTP/1.1" 200 -
+2023-02-27 00:11:18,836 INFO 127.0.0.1 - - [27/Feb/2023 00:11:18] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:11:38,344 DEBUG Query: <Users 2>
+2023-02-27 00:11:38,350 INFO 127.0.0.1 - - [27/Feb/2023 00:11:38] "POST /register_user HTTP/1.1" 200 -
+2023-02-27 00:11:38,363 INFO 127.0.0.1 - - [27/Feb/2023 00:11:38] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:38,365 INFO 127.0.0.1 - - [27/Feb/2023 00:11:38] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:38,367 INFO 127.0.0.1 - - [27/Feb/2023 00:11:38] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:38,374 INFO 127.0.0.1 - - [27/Feb/2023 00:11:38] "GET /_debug_toolbar/static/css/toolbar.css?0.40266558800442254 HTTP/1.1" 200 -
+2023-02-27 00:11:38,383 INFO 127.0.0.1 - - [27/Feb/2023 00:11:38] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:11:40,385 DEBUG Errors: {}
+2023-02-27 00:11:40,392 INFO 127.0.0.1 - - [27/Feb/2023 00:11:40] "GET /login HTTP/1.1" 200 -
+2023-02-27 00:11:40,411 INFO 127.0.0.1 - - [27/Feb/2023 00:11:40] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:11:40,413 INFO 127.0.0.1 - - [27/Feb/2023 00:11:40] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:40,414 INFO 127.0.0.1 - - [27/Feb/2023 00:11:40] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:40,416 INFO 127.0.0.1 - - [27/Feb/2023 00:11:40] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:40,421 INFO 127.0.0.1 - - [27/Feb/2023 00:11:40] "GET /_debug_toolbar/static/css/toolbar.css?0.2586623515606896 HTTP/1.1" 200 -
+2023-02-27 00:11:40,437 INFO 127.0.0.1 - - [27/Feb/2023 00:11:40] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:11:56,064 DEBUG Username entered: preindademz
+2023-02-27 00:11:56,064 DEBUG Password entered: animal
+2023-02-27 00:11:56,072 INFO 127.0.0.1 - - [27/Feb/2023 00:11:56] "POST /login HTTP/1.1" 200 -
+2023-02-27 00:11:56,084 INFO 127.0.0.1 - - [27/Feb/2023 00:11:56] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:56,088 INFO 127.0.0.1 - - [27/Feb/2023 00:11:56] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:56,088 INFO 127.0.0.1 - - [27/Feb/2023 00:11:56] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:56,093 INFO 127.0.0.1 - - [27/Feb/2023 00:11:56] "GET /_debug_toolbar/static/css/toolbar.css?0.11098051145788301 HTTP/1.1" 200 -
+2023-02-27 00:11:56,102 INFO 127.0.0.1 - - [27/Feb/2023 00:11:56] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:11:57,592 DEBUG Errors: {}
+2023-02-27 00:11:57,606 INFO 127.0.0.1 - - [27/Feb/2023 00:11:57] "GET /login HTTP/1.1" 200 -
+2023-02-27 00:11:57,620 INFO 127.0.0.1 - - [27/Feb/2023 00:11:57] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:11:57,621 INFO 127.0.0.1 - - [27/Feb/2023 00:11:57] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:57,625 INFO 127.0.0.1 - - [27/Feb/2023 00:11:57] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:57,627 INFO 127.0.0.1 - - [27/Feb/2023 00:11:57] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:11:57,633 INFO 127.0.0.1 - - [27/Feb/2023 00:11:57] "GET /_debug_toolbar/static/css/toolbar.css?0.5005860052723432 HTTP/1.1" 200 -
+2023-02-27 00:11:57,653 INFO 127.0.0.1 - - [27/Feb/2023 00:11:57] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:12:08,160 DEBUG Username entered: ptrindademz
+2023-02-27 00:12:08,160 DEBUG Password entered: animal
+2023-02-27 00:12:08,433 DEBUG Login successful for username: ptrindademz
+2023-02-27 00:12:08,438 INFO 127.0.0.1 - - [27/Feb/2023 00:12:08] "POST /login HTTP/1.1" 200 -
+2023-02-27 00:12:08,453 INFO 127.0.0.1 - - [27/Feb/2023 00:12:08] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:08,454 INFO 127.0.0.1 - - [27/Feb/2023 00:12:08] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:08,456 INFO 127.0.0.1 - - [27/Feb/2023 00:12:08] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:08,462 INFO 127.0.0.1 - - [27/Feb/2023 00:12:08] "GET /_debug_toolbar/static/css/toolbar.css?0.8548111672551075 HTTP/1.1" 200 -
+2023-02-27 00:12:08,472 INFO 127.0.0.1 - - [27/Feb/2023 00:12:08] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:12:10,818 INFO 127.0.0.1 - - [27/Feb/2023 00:12:10] "GET / HTTP/1.1" 200 -
+2023-02-27 00:12:10,835 INFO 127.0.0.1 - - [27/Feb/2023 00:12:10] "[36mGET /static/login.css HTTP/1.1[0m" 304 -
+2023-02-27 00:12:10,840 INFO 127.0.0.1 - - [27/Feb/2023 00:12:10] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:10,842 INFO 127.0.0.1 - - [27/Feb/2023 00:12:10] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:10,843 INFO 127.0.0.1 - - [27/Feb/2023 00:12:10] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:10,849 INFO 127.0.0.1 - - [27/Feb/2023 00:12:10] "GET /_debug_toolbar/static/css/toolbar.css?0.6835560096531312 HTTP/1.1" 200 -
+2023-02-27 00:12:10,860 INFO 127.0.0.1 - - [27/Feb/2023 00:12:10] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:12:12,104 INFO 127.0.0.1 - - [27/Feb/2023 00:12:12] "GET /login HTTP/1.1" 200 -
+2023-02-27 00:12:12,127 INFO 127.0.0.1 - - [27/Feb/2023 00:12:12] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:12,128 INFO 127.0.0.1 - - [27/Feb/2023 00:12:12] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:12,129 INFO 127.0.0.1 - - [27/Feb/2023 00:12:12] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:12,137 INFO 127.0.0.1 - - [27/Feb/2023 00:12:12] "GET /_debug_toolbar/static/css/toolbar.css?0.6810651770628493 HTTP/1.1" 200 -
+2023-02-27 00:12:12,147 INFO 127.0.0.1 - - [27/Feb/2023 00:12:12] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:12:13,270 INFO 127.0.0.1 - - [27/Feb/2023 00:12:13] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:12:13,283 INFO 127.0.0.1 - - [27/Feb/2023 00:12:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:12:13,287 INFO 127.0.0.1 - - [27/Feb/2023 00:12:13] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:13,290 INFO 127.0.0.1 - - [27/Feb/2023 00:12:13] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:13,291 INFO 127.0.0.1 - - [27/Feb/2023 00:12:13] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:13,299 INFO 127.0.0.1 - - [27/Feb/2023 00:12:13] "GET /_debug_toolbar/static/css/toolbar.css?0.01756790419056098 HTTP/1.1" 200 -
+2023-02-27 00:12:13,311 INFO 127.0.0.1 - - [27/Feb/2023 00:12:13] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:12:21,975 DEBUG http://127.0.0.1:5000/properties
+2023-02-27 00:12:21,997 INFO 127.0.0.1 - - [27/Feb/2023 00:12:21] "GET /properties HTTP/1.1" 200 -
+2023-02-27 00:12:22,023 INFO 127.0.0.1 - - [27/Feb/2023 00:12:22] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:22,024 INFO 127.0.0.1 - - [27/Feb/2023 00:12:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:12:22,025 INFO 127.0.0.1 - - [27/Feb/2023 00:12:22] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:22,027 INFO 127.0.0.1 - - [27/Feb/2023 00:12:22] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:22,033 INFO 127.0.0.1 - - [27/Feb/2023 00:12:22] "GET /_debug_toolbar/static/css/toolbar.css?0.5524020079423744 HTTP/1.1" 200 -
+2023-02-27 00:12:22,056 INFO 127.0.0.1 - - [27/Feb/2023 00:12:22] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:12:25,112 INFO 127.0.0.1 - - [27/Feb/2023 00:12:25] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:12:25,125 INFO 127.0.0.1 - - [27/Feb/2023 00:12:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:12:25,126 INFO 127.0.0.1 - - [27/Feb/2023 00:12:25] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:25,131 INFO 127.0.0.1 - - [27/Feb/2023 00:12:25] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:25,132 INFO 127.0.0.1 - - [27/Feb/2023 00:12:25] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:12:25,137 INFO 127.0.0.1 - - [27/Feb/2023 00:12:25] "GET /_debug_toolbar/static/css/toolbar.css?0.718251207674923 HTTP/1.1" 200 -
+2023-02-27 00:12:25,149 INFO 127.0.0.1 - - [27/Feb/2023 00:12:25] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:14:51,320 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-27 00:14:52,273 WARNING  * Debugger is active!
+2023-02-27 00:14:52,274 INFO  * Debugger PIN: 325-298-129
+2023-02-27 00:15:05,720 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-27 00:15:06,667 WARNING  * Debugger is active!
+2023-02-27 00:15:06,667 INFO  * Debugger PIN: 325-298-129
+2023-02-27 00:15:45,941 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-27 00:15:47,334 WARNING  * Debugger is active!
+2023-02-27 00:15:47,334 INFO  * Debugger PIN: 325-298-129
+2023-02-27 00:15:47,842 INFO 127.0.0.1 - - [27/Feb/2023 00:15:47] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:15:47,859 INFO 127.0.0.1 - - [27/Feb/2023 00:15:47] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:15:47,862 INFO 127.0.0.1 - - [27/Feb/2023 00:15:47] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:47,864 INFO 127.0.0.1 - - [27/Feb/2023 00:15:47] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:47,866 INFO 127.0.0.1 - - [27/Feb/2023 00:15:47] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:47,874 INFO 127.0.0.1 - - [27/Feb/2023 00:15:47] "GET /_debug_toolbar/static/css/toolbar.css?0.3155696069070075 HTTP/1.1" 200 -
+2023-02-27 00:15:47,884 INFO 127.0.0.1 - - [27/Feb/2023 00:15:47] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,239 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:15:48,257 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,258 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,261 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,262 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,271 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "GET /_debug_toolbar/static/css/toolbar.css?0.8784565751975362 HTTP/1.1" 200 -
+2023-02-27 00:15:48,298 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,554 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:15:48,569 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,572 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,575 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,576 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:48,582 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "GET /_debug_toolbar/static/css/toolbar.css?0.6773685972550911 HTTP/1.1" 200 -
+2023-02-27 00:15:48,594 INFO 127.0.0.1 - - [27/Feb/2023 00:15:48] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:15:49,310 INFO 127.0.0.1 - - [27/Feb/2023 00:15:49] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:15:49,329 INFO 127.0.0.1 - - [27/Feb/2023 00:15:49] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:15:49,332 INFO 127.0.0.1 - - [27/Feb/2023 00:15:49] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:49,333 INFO 127.0.0.1 - - [27/Feb/2023 00:15:49] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:49,336 INFO 127.0.0.1 - - [27/Feb/2023 00:15:49] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:15:49,341 INFO 127.0.0.1 - - [27/Feb/2023 00:15:49] "GET /_debug_toolbar/static/css/toolbar.css?0.13844079347328542 HTTP/1.1" 200 -
+2023-02-27 00:15:49,352 INFO 127.0.0.1 - - [27/Feb/2023 00:15:49] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:15:54,961 ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-02-27 00:15:54,963 INFO 127.0.0.1 - - [27/Feb/2023 00:15:54] "[33mGET /edit_property HTTP/1.1[0m" 404 -
+2023-02-27 00:15:59,929 INFO 127.0.0.1 - - [27/Feb/2023 00:15:59] "GET /_debug_toolbar/static/css/toolbar.css?0.8690929586358482 HTTP/1.1" 200 -
+2023-02-27 00:16:00,988 DEBUG http://127.0.0.1:5000/properties
+2023-02-27 00:16:01,017 INFO 127.0.0.1 - - [27/Feb/2023 00:16:01] "GET /properties HTTP/1.1" 200 -
+2023-02-27 00:16:01,035 INFO 127.0.0.1 - - [27/Feb/2023 00:16:01] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:16:01,036 INFO 127.0.0.1 - - [27/Feb/2023 00:16:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:16:01,040 INFO 127.0.0.1 - - [27/Feb/2023 00:16:01] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:16:01,040 INFO 127.0.0.1 - - [27/Feb/2023 00:16:01] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:16:01,046 INFO 127.0.0.1 - - [27/Feb/2023 00:16:01] "GET /_debug_toolbar/static/css/toolbar.css?0.9965619210382972 HTTP/1.1" 200 -
+2023-02-27 00:16:01,075 INFO 127.0.0.1 - - [27/Feb/2023 00:16:01] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:16:05,557 INFO 127.0.0.1 - - [27/Feb/2023 00:16:05] "GET /edit_property/1 HTTP/1.1" 200 -
+2023-02-27 00:16:05,574 INFO 127.0.0.1 - - [27/Feb/2023 00:16:05] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:16:05,575 INFO 127.0.0.1 - - [27/Feb/2023 00:16:05] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:16:05,579 INFO 127.0.0.1 - - [27/Feb/2023 00:16:05] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:16:05,580 INFO 127.0.0.1 - - [27/Feb/2023 00:16:05] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:16:05,587 INFO 127.0.0.1 - - [27/Feb/2023 00:16:05] "GET /_debug_toolbar/static/css/toolbar.css?0.42461460695818887 HTTP/1.1" 200 -
+2023-02-27 00:16:05,597 INFO 127.0.0.1 - - [27/Feb/2023 00:16:05] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:16:08,645 INFO 127.0.0.1 - - [27/Feb/2023 00:16:08] "GET /home HTTP/1.1" 200 -
+2023-02-27 00:16:08,666 INFO 127.0.0.1 - - [27/Feb/2023 00:16:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2023-02-27 00:16:08,672 INFO 127.0.0.1 - - [27/Feb/2023 00:16:08] "[36mGET /_debug_toolbar/static/js/jquery.js HTTP/1.1[0m" 304 -
+2023-02-27 00:16:08,672 INFO 127.0.0.1 - - [27/Feb/2023 00:16:08] "[36mGET /_debug_toolbar/static/js/jquery.tablesorter.js HTTP/1.1[0m" 304 -
+2023-02-27 00:16:08,673 INFO 127.0.0.1 - - [27/Feb/2023 00:16:08] "[36mGET /_debug_toolbar/static/js/toolbar.js HTTP/1.1[0m" 304 -
+2023-02-27 00:16:08,681 INFO 127.0.0.1 - - [27/Feb/2023 00:16:08] "GET /_debug_toolbar/static/css/toolbar.css?0.34701369418073713 HTTP/1.1" 200 -
+2023-02-27 00:16:08,692 INFO 127.0.0.1 - - [27/Feb/2023 00:16:08] "[36mGET /_debug_toolbar/static/img/tick-red.png HTTP/1.1[0m" 304 -
+2023-02-27 00:16:21,632 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-27 00:16:22,551 WARNING  * Debugger is active!
+2023-02-27 00:16:22,552 INFO  * Debugger PIN: 325-298-129
+2023-02-27 00:16:28,779 ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-02-27 00:16:28,781 INFO 127.0.0.1 - - [27/Feb/2023 00:16:28] "[33mGET /edit_property HTTP/1.1[0m" 404 -
+2023-02-27 00:17:08,072 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading
+2023-02-27 00:17:09,097 WARNING  * Debugger is active!
+2023-02-27 00:17:09,097 INFO  * Debugger PIN: 325-298-129
+2023-02-27 00:17:09,692 ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-02-27 00:17:09,693 INFO 127.0.0.1 - - [27/Feb/2023 00:17:09] "[33mGET /edit_property HTTP/1.1[0m" 404 -
+2023-02-27 00:17:10,261 ERROR 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+2023-02-27 00:17:10,263 INFO 127.0.0.1 - - [27/Feb/2023 00:17:10] "[33mGET /edit_property HTTP/1.1[0m" 404 -
+2023-02-27 00:17:29,664 INFO  * Detected change in '/home/pit/Documents/CRM_Beta2/crm.py', reloading

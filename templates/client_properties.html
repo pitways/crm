@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+        <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+{% block content %}
+        <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+{% if debug %}
+    <pre>{{ foo }}</pre>
+{% endif %}
+    <head>
+        <title>Properties for Client {{ client.id }} - {{ client.name }}</title>
+    </head>
+    <body>
+        <h1>Properties for Client {{ client.id }} - {{ client.name }}</h1>
+
+          {% if client %}
+        <h2>Client {{ client.id }} - {{ client.name }}</h2>
+        <dl>
+          <dt>Email:</dt>
+          <dd>{{ client.email }}</dd>
+          <dt>Phone:</dt>
+          <dd>{{ client.phone }}</dd>
+        </dl>
+      {% else %}
+        <p>Client not found.</p>
+      {% endif %}
+      <h2>Search for a client</h2>
+
+    <form action="{{ url_for('search_client_properties', client_id=client.id) }}" method="GET">
+    <input type="hidden" name="client_id_or_name" value="{{ client_id_or_name }}">
+    <label for="client_id_or_name">Id ou Nome do Cliente:</label>
+    <input type="text" name="client_id_or_name" id="client_id_or_name" value="{{ client_id_or_name }}">
+    <button type="submit">Search client 2</button>
+</form>
+
+
+        <ul>
+            {% for property in properties %}
+            <li>
+                <h3>{{ property.name }}</h3>
+                <img src="{{ url_for('get_property_photo', property_id=property.id) }}" alt="{{ property.name }} photo">
+                <p><strong>Address:</strong> {{ property.address }}, {{ property.city }}, {{ property.state }}</p>
+                <p><strong>Property Type:</strong> {{ property.property_type }}</p>
+                <p><strong>Price:</strong> {{ property.price }}</p>
+                <p><strong>Bedrooms:</strong> {{ property.bedrooms }}</p>
+                <p><strong>Bathrooms:</strong> {{ property.bathrooms }}</p>
+                <p><strong>Area:</strong> {{ property.area }} sqft</p>
+                <p><strong>Garage:</strong> {{ property.garage }}</p>
+                <p><strong>Description:</strong> {{ property.description }}</p>
+            </li>
+            {% endfor %}
+        </ul>
+    {% endblock %}

@@ -1,0 +1,68 @@
+
+from datetime import datetime
+from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
+from datetime import datetime, date
+
+# from models import db, Sales
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crm.db'
+app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+db = SQLAlchemy(app)
+# db.init_app(app)
+# Model for Client
+
+class Client(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(50), nullable=False)
+    email = db.Column(db.String(50), nullable=False)
+    phone = db.Column(db.String(20), nullable=True)
+    address = db.Column(db.String(200), nullable=True)
+    birthdate = db.Column(db.Date, nullable=False)
+    marital_status = db.Column(db.String(20), nullable=True)
+    profession = db.Column(db.String(50), nullable=True)
+    income = db.Column(db.Integer, nullable=True)
+    properties = db.relationship('Property', backref='clients', lazy=True)
+    sales = db.relationship('Sale', backref='clients', lazy=True)
+    interactions = db.relationship('Interaction', backref='clients', lazy=True)
+
+
+# Model for Property
+class Property(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    address = db.Column(db.String(200), nullable=False)
+    property_type = db.Column(db.String(50), nullable=False)
+    price = db.Column(db.Integer, nullable=True)
+    description = db.Column(db.String(500), nullable=True)
+    photo = db.Column(db.String(50), nullable=True)
+    client_id = db.Column(db.Integer, db.ForeignKey('client.id'), nullable=False)
+
+
+# Model for Sale
+class Sale(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    date = db.Column(db.String(20), nullable=False, default=datetime.utcnow)
+    value = db.Column(db.Integer, nullable=False)
+    commission = db.Column(db.Integer, nullable=False)
+    closing_date = db.Column(db.String(20), nullable=True)
+    details = db.Column(db.String(500), nullable=True)
+    client_id = db.Column(db.Integer, db.ForeignKey('client.id'), nullable=False)
+
+
+# Model for Lead
+class Lead(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    date = db.Column(db.String(20), nullable=False, default=datetime.utcnow)
+    source = db.Column(db.String(50), nullable=False)
+    status = db.Column(db.String(20), nullable=True)
+    additional_info = db.Column(db.String(500), nullable=True)
+
+
+# Model for Interaction
+class Interaction(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    date = db.Column(db.String(20), nullable=False, default=datetime.utcnow)
+    notes = db.Column(db.String(500), nullable=True)
+    next_action = db.Column(db.String(50), nullable=True)
+    client_id = db.Column(db.Integer, db.ForeignKey('client.id'), nullable=False)

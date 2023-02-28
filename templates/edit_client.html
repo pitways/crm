@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Pesquisar Cliente</h1>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    <form method="POST" action="{{ url_for('edit_client') }}">
+        <div>
+            <label for="search_query">Inserir Nome ou Tlm do edit:</label>
+            {{ search_form.search_query() }}
+        </div>
+        <button type="submit">Search vem do edit</button>
+    </form>
+
+    {% if search_results %}
+        <h2>Clientes encontrados:</h2>
+        <ul>
+            {% for client in search_results %}
+                <li>
+                    <a href="{{ url_for('edit_client', client_id=client.id) }}">{{ client.name }}
+                        - {{ client.phone }}</a>
+                    <a href="{{ url_for('delete_client', client_id=client.id) }}">[delete 3]</a>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>.</p>
+    {% endif %}
+
+    {% if client %}
+        <form method="POST" action="{{ url_for('update_client', client_id=client.id) }}">
+            <label for="name">Name:</label>
+            <input type="text" name="name" value="{{ client.name }}" disabled>
+            <div>
+                <label for="email">Email:</label>
+                <input type="text" name="email" value="{{ client.email }}" disabled>
+            </div>
+            <div>
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" value="{{ client.phone }}" disabled>
+            </div>
+            <div>
+                <label for="address">Address:</label>
+                <input type="text" name="address" value="{{ client.address }}" disabled>
+            </div>
+            <div>
+                <label for="birthdate">Birthdate:</label>
+                <input type="text" name="birthdate" value="{{ client.birthdate }}" disabled>
+            </div>
+            <div>
+                <label for="marital_status">Marital Status:</label>
+                <input type="text" name="marital_status" value="{{ client.marital_status }}" disabled>
+            </div>
+            <div>
+                <label for="profession">Profession:</label>
+                <input type="text" name="profession" value="{{ client.profession }}" disabled>
+            </div>
+            <div>
+                <label for="income">Income:</label>
+                <input type="text" name="income" value="{{ client.income }}" disabled>
+            </div>
+
+            <button type="submit">Update Client do edit</button>
+
+        </form>
+    {% endif %}
+{% endblock %}

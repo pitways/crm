@@ -1,0 +1,122 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    <h1>Add Property</h1>
+    {% if form.errors %}
+        <div class="alert alert-danger">
+            {% for field, errors in form.errors.items() %}
+                <ul>
+                    {% for error in errors %}
+                        <li>{{ error }}</li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    <form method="post" enctype="multipart/form-data">
+        {{ form.hidden_tag() }}
+        {{ form.csrf_token }}
+        <div class="form-group">
+            {{ form.name.label(class="form-control-label") }}
+            {{ form.name(class="form-control form-control-lg") }}
+            {% for error in form.name.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.address.label(class="form-control-label") }}
+            {{ form.address(class="form-control form-control-lg") }}
+            {% for error in form.address.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+
+        <div class="form-group">
+            {{ form.city.label(class="form-control-label") }}
+            {{ form.city(class="form-control form-control-lg") }}
+            {% for error in form.city.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+
+
+        <div class="form-group">
+            {{ form.distrito.label(class="form-control-label") }}
+            {{ form.distrito(class="form-control form-control-lg") }}
+            {% for error in form.distrito.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+
+
+        <div class="form-group">
+            {{ form.property_type.label(class="form-control-label") }}
+            {{ form.property_type(class="form-control form-control-lg") }}
+            {% for error in form.property_type.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.price.label(class="form-control-label") }}
+            {{ form.price(class="form-control form-control-lg") }}
+            {% for error in form.price.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.value.label(class="form-control-label") }}
+            {{ form.value(class="form-control form-control-lg", type="number") }}
+            {% for error in form.value.errors %}
+                <span class="help-block">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.bedrooms.label(class="form-control-label") }}
+            {{ form.bedrooms(class="form-control form-control-lg") }}
+            {% for error in form.bedrooms.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.bathrooms.label(class="form-control-label") }}
+            {{ form.bathrooms(class="form-control form-control-lg") }}
+            {% for error in form.bathrooms.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.area.label(class="form-control-label") }}
+            {{ form.area(class="form-control form-control-lg") }}
+            {% for error in form.area.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.garage.label(class="form-control-label") }}
+            {{ form.garage(class="form-control form-control-lg") }}
+            {% for error in form.garage.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+        <div class="form-group">
+            {{ form.description.label(class="form-control-label") }}
+            {{ form.description(class="form-control form-control-lg") }}
+            {% for error in form.description.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+
+        <div class="form-group">
+            {{ form.photo.label(for="photo", class="form-control-label") }}
+            {{ form.photo(id="photo", class="form-control form-control-lg") }}
+            {% for error in form.photo.errors %}
+                <span class="form-text text-danger">{{ error }}</span>
+            {% endfor %}
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Property do add</button>
+    </form>
+{% endblock %}

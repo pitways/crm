@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Clientes</h1>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    <form method="POST" action="{{ url_for('view_clients') }}">
+    {{ search_form.csrf_token }}
+
+    <label for="search_query">Search clients:</label>
+    {{ search_form.search_query }}
+    <button type="submit">Search</button>
+    {% if search_results %}
+        <p>Search results:</p>
+        <ul>
+            {% for result in search_results %}
+                <li>{{ result.name }} ({{ result.phone }}) <button type="submit" name="client_id" value="{{ result.id }}">View Properties</button></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>All clients:</p>
+        <ul>
+            {% for client in clients %}
+                <li>{{ client.name }} ({{ client.phone }}) <button type="submit" name="client_id" value="{{ client.id }}">View Properties</button></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+</form>
+
+
+
+    <form action="{{ url_for('view_clients') }}" method="POST">
+
+        <div>
+            <label for="search_query">Inserir Nome ou TLM do view:</label>
+            {{ search_form.search_query() }}
+        </div>
+        <button type="submit">Pesquisar do view</button>
+    </form>
+
+    {% if search_results %}
+        <h2>Search Results:</h2>
+        <ul>
+            {% for client in search_results %}
+                <li><a href="{{ url_for('edit_client', client_id=client.id) }}">{{ client.name }}
+                    - {{ client.phone }}</a></li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        {% if clients %}
+            <ul>
+                {% for client in clients %}
+                    <li>
+                        <a href="{{ url_for('edit_client', client_id=client.id) }}">{{ client.name }}
+                            - {{ client.phone }}</a>
+                        <a href="{{ url_for('delete_client', client_id=client.id) }}">[delete 1]</a>
+
+                    </li>
+                {% endfor %}
+            </ul>
+        {% else %}
+            <p>Nenhum cliente encontrado.</p>
+        {% endif %}
+        {% if not search_results and search_form.search_query.data %}
+            <p>{{ get_flashed_messages()[0] }}</p>
+        {% endif %}
+    {% endif %}
+
+
+{% endblock %}

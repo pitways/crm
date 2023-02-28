@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    <h1>Property Details</h1>
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">{{ property.name }}</h5>
+            <p class="card-text">Address: {{ property.address }}, {{ property.city }}, {{ property.distrito }}</p>
+            <p class="card-text">Type: {{ property.property_type }}</p>
+            <p class="card-text">Price: {{ property.price }} €</p>
+            <p class="card-text">Value: {{ property.value }} €</p>
+            <p class="card-text">Bedrooms: {{ property.bedrooms }}</p>
+            <p class="card-text">Bathrooms: {{ property.bathrooms }}</p>
+            <p class="card-text">Area: {{ property.area }} m²</p>
+            <p class="card-text">Garage: {{ property.garage }}</p>
+            <p class="card-text">Description: {{ property.description }}</p>
+        </div>
+    </div>
+
+    {% for p in property_list %}
+      <tr>
+        <td>{{ p.title }}</td>
+        <td>{{ p.address }}</td>
+        <td>{{ p.city }}</td>
+        <td>{{ p.distrito }}</td>
+        <td><a href="{{ url_for('view_properties', id=p.id) }}" class="btn btn-primary">View</a></td>
+        <td><a href="{{ url_for('update_property', id=p.id) }}" class="btn btn-warning">Update</a></td>
+        <td><a href="{{ url_for('delete_property', id=p.id) }}" class="btn btn-danger">Delete Property</a></td>
+      </tr>
+    {% endfor %}
+
+    <!-- Debug and print functions -->
+    <hr>
+    <h3>Debug and Print Functions</h3>
+    <hr>
+    <pre>{{ property | tojson | safe }}</pre>
+    <hr>
+    <pre>{{ request.args | tojson | safe }}</pre>
+    <hr>
+    <pre>{{ request.form | tojson | safe }}</pre>
+{% endblock %}

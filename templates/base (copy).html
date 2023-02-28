@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>{% block title %}Page Title{% endblock %}</title>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('search_clients') }}">Search Clients</a></li>
+        <li><a href="{{ url_for('view_clients') }}">View Clients</a></li>
+        <li><a href="{{ url_for('add_client') }}">Add Client</a></li>
+        <li><a href="{{ url_for('search_properties') }}">Search Property</a></li>
+        <li><a href="{{ url_for('view_properties') }}">View Property</a></li>
+        <li><a href="{{ url_for('add_property') }}">Add Property</a></li>
+{% if client is defined %}
+    <li><a href="{{ url_for('client_properties', client_id=client.id) }}">Client Properties</a></li>
+{% endif %}
+        <li><a href="{{ url_for('login') }}">login</a></li>
+        <li><a href="{{ url_for('logout') }}">logout</a></li>
+
+
+    </ul>
+</nav>
+
+{% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+        <ul class="flashes">
+            {% for category, message in messages %}
+                <li class="{{ category }}">{{ message }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+{% endwith %}
+
+{% block content %}{% endblock %}
+</body>
+</html>

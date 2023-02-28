@@ -1,0 +1,2 @@
+flask db migrate -m "Add name column to properties table"
+flask db upgrade

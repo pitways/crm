@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h1>{{ client.name }}</h1>
+  <hr>
+  <h2>Informações do Cliente</h2>
+  <table class="table table-striped table-bordered">
+    <tr>
+      <th>Nome:</th>
+      <td>{{ client.name }}</td>
+    </tr>
+    <tr>
+      <th>Email:</th>
+      <td>{{ client.email }}</td>
+    </tr>
+    <tr>
+      <th>Telefone:</th>
+      <td>{{ client.phone }}</td>
+    </tr>
+    <tr>
+      <th>Endereço:</th>
+      <td>{{ client.address }}</td>
+    </tr>
+    <tr>
+      <th>Cidade:</th>
+      <td>{{ client.city }}</td>
+    </tr>
+    <tr>
+      <th>Estado:</th>
+      <td>{{ client.state }}</td>
+    </tr>
+    <tr>
+      <th>CEP:</th>
+      <td>{{ client.zip }}</td>
+    </tr>
+  </table>
+
+  <h2>Imóveis Interessados</h2>
+  {% if client.interested_properties %}
+    <ul>
+    {% for property in client.interested_properties %}
+      <li><a href="{{ url_for('views.view_property', property_id=property.id) }}">{{ property.address }}</a></li>
+    {% endfor %}
+    </ul>
+  {% else %}
+    <p>Este cliente ainda não demonstrou interesse por nenhum imóvel.</p>
+  {% endif %}
+{% endblock %}

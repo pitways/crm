@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+        <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+
+    <h1>Delete Property</h1>
+
+    <p>Are you sure you want to delete this property?</p>
+
+    <form method="POST" action="{{ url_for('delete_property', property_id=property.id) }}">
+        {{ form.hidden_tag() }}
+        <button type="submit" class="btn btn-danger">Yes, delete</button>
+    </form>
+
+    <a href="{{ url_for('properties') }}">Cancel</a>
+
+{% endblock %}
