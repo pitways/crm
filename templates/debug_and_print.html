@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+
+    <!-- Debug and print functions -->
+    <hr>
+    <h3>Debug and Print Functions</h3>
+    <hr>
+    <pre>{{ property | tojson | safe }}</pre>
+    <hr>
+    <pre>{{ request.args | tojson | safe }}</pre>
+    <hr>
+    <pre>{{ request.form | tojson | safe }}</pre>
+
+
+e colocar no def
+ef edit_property(id):
+    property = Properties.query.get(id)
+    if not property:
+        abort(404)
+    print(property)
+   return jsonify(property.to_dict())
+<body>
+
+</body>
+</html>

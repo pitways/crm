@@ -2,9 +2,9 @@
 
 {% block content %}
 
-    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
 
-    <body>
+<body>
     <h1 style="text-align: center;">Propriedades</h1>
 
     <form action="{{ url_for('view_properties') }}" method="POST">
@@ -24,29 +24,29 @@
 
     <ul>
         {% for property in search_results %}
-            <li>
-                <a href="{{ url_for('edit_property', id=property.id) }}">{{ property.address }}
-                    - {{ property.price }}</a>
-                <a href="{{ url_for('delete_property', id=property.id) }}">[delete]</a>
-            </li>
+        <li>
+            <a href="{{ url_for('edit_property', id=property.id) }}">{{ property.address }}
+                - {{ property.price }}</a>
+            <a href="{{ url_for('delete_property', id=property.id) }}">[delete]</a>
+        </li>
         {% endfor %}
     </ul>
     {% if properties %}
-        <ul>
-            {% for property in properties %}
-                <li>
-                    <a href="{{ url_for('edit_property', id=property.id) }}">{{ property.address }}
-                        - {{ property.price }}</a>
-                    <a href="{{ url_for('delete_property', id=property.id) }}">[delete]</a>
-                </li>
-            {% endfor %}
-        </ul>
+    <ul>
+        {% for property in properties %}
+        <li>
+            <a href="{{ url_for('edit_property', id=property.id) }}">{{ property.address }}
+                - {{ property.price }}</a>
+            <a href="{{ url_for('delete_property', id=property.id) }}">[delete]</a>
+        </li>
+        {% endfor %}
+    </ul>
     {% else %}
-        <p>Nenhuma propriedade encontrada.</p>
-        {% if not search_results and search_form.search_query.data %}
-            <p>{{ get_flashed_messages()[0] }}</p>
-        {% endif %}
+    <p>Nenhuma propriedade encontrada.</p>
+    {% if not search_results and search_form.search_query.data %}
+    <p>{{ get_flashed_messages()[0] }}</p>
+    {% endif %}
     {% endif %}
 
-    </body>
+</body>
 {% endblock %}

@@ -27,6 +27,8 @@ from flask_login import (
 )
 from flask_migrate import Migrate
 from flask_wtf.csrf import generate_csrf, CSRFProtect
+from flask_wtf import form
+
 from sqlalchemy import or_, func, create_engine
 from sqlalchemy.orm import sessionmaker, scoped_session
 from werkzeug.security import check_password_hash, generate_password_hash
@@ -81,6 +83,7 @@ logger.error('This is an error message')
 # logging.basicConfig(filename='example.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s')
 
 
+csrf = CSRFProtect()
 
 
 def create_app():
@@ -92,6 +95,9 @@ def create_app():
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     app.config['SECRET_KEY'] = 'e2d7dd8c522f1cf159f6b45a6d7e8c25'
     app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # set maximum content length to 16 MB
+    app.config['WTF_CSRF_ENABLED'] = True
+    app.config['WTF_CSRF_SECRET_KEY'] = os.getenv('SECRET_KEY') or \
+                                        'abc123ced456'
     MAX_CONTENT_LENGTH = 1024 * 1024  # 1 MB
 
     return app
@@ -106,8 +112,7 @@ migrate = Migrate(app, db)
 login_manager = LoginManager()
 login_manager.init_app(app)
 
-csrf = CSRFProtect()
-csrf.init_app(app)
+# csrf.init_app(app)
 
 
 
@@ -324,7 +329,6 @@ def edit_client():
         db.session.commit()
 
         flash('Client updated successfully.')
-
     return render_template('edit_client.html', search_form=search_form, client=client)
 
 
@@ -337,6 +341,7 @@ def update_client(client_id):
         db.session.commit()
         flash('Client updated successfully!', 'success')
         return redirect(url_for('view_clients'))
+
     return render_template('update_client.html', form=form, client=client)
 
 
@@ -566,12 +571,11 @@ def edit_property(id):
     if not property:
         abort(404)
     print(property)
-    return jsonify(property.to_dict())
+ #  return jsonify(property.to_dict())
 
     form = PropertiesForm(obj=property)
     if form.validate_on_submit():
         form.populate_obj(property)
-
         # Process the uploaded photo, if provided
         photo_file = request.files.get('photo')
         if photo_file:

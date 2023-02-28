@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
     <title>Home</title>
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet" type="text/css">
@@ -7,72 +8,47 @@
 
 <body>
 
-<h1>Welcome {{ user.username }}!</h1>
-<p>Your email is: {{ user.email }}</p>
-<h1 style="text-align: center;"><span style="color:#3498db;"><strong><span style="font-family:'Raleway',sans-serif;">Bem-vindo ao IMO CRM</span></strong></span>
-</h1>
+    <h1>Welcome {{ user.username }}!</h1>
+    <p>Your email is: {{ user.email }}</p>
+    <h1 style="text-align: center;"><span style="color:#3498db;"><strong><span style="font-family:'Raleway',sans-serif;">Bem-vindo ao IMO CRM</span></strong></span>
+    </h1>
 
-<a href="/add_client">
-    <button>Cadastrar Cliente</button>
-</a>
-<a href="/view_clients">
-    <button>Clientes</button>
-</a>
-
-<a href="/search_clients">
-    <button>Pesquisar Clientes 2</button>
-</a>
-<a href="/clients">
-    <button>MenuClientes</button>
-</a>
-<a href="/add_property">
-    <button>Cadastrar Imóvel</button>
-</a>
-<a href="/edit_property">
-    <button>Editar Imóvel</button>
-</a>
-<a href="/view_properties">
-    <button>Visualizar Imóvel</button>
-</a>
-<a href="/add_sale">
-    <button>Cadastrar Venda</button>
-</a>
-<a href="/edit_sale">
-    <button>Editar Venda</button>
-</a>
-<a href="/view_sale">
-    <button>Visualizar Venda</button>
-</a>
-<a href="/add_lead">
-    <button>Cadastrar Lead</button>
-</a>
-<a href="/edit_lead">
-    <button>Editar Lead</button>
-</a>
-<a href="/view_lead">
-    <button>Visualizar Lead</button>
-</a>
-<a href="/view_interactions">
-    <button>Histórico de Interações</button>
-</a>
-<a href="/view_reports">
-    <button>Relatórios</button>
-
-    <a href="/properties">
-        <button>propriedades</button>
+    <a href="/clients">
+        <button>Menu Clientes</button>
     </a>
 
-    <a href="/search_properties">
-        <button>search_properties</button>
+                <a href="/properties">
+            <button>Menu Propriedades</button>
+        </a>
+
+    <a href="/add_client">
+        <button>Cadastrar Cliente</button>
+
+
+    <a href="/search_clients">
+        <button>Pesquisar Clientes 2</button>
     </a>
 
+    <a href="/add_property">
+        <button>Cadastrar Imóvel</button>
+    </a>
+    <a href="/edit_property">
+        <button>Editar Imóvel</button>
+    </a>
     <a href="/view_properties">
-        <button>view properties</button>
+        <button>Visualizar Imóvel</button>
+    </a>
+    <a href="/add_sale">
+        <button>Cadastrar Venda</button>
     </a>
 
-    <a href="/client_properties">
-        <button>view client properties</button>
-    </a>
+        <a href="/view_properties">
+            <button>view properties</button>
+        </a>
+
+        <a href="/client_properties">
+            <button>view client properties</button>
+        </a>
 
 </body>
 

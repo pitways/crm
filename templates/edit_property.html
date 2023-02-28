@@ -31,13 +31,4 @@
       </tr>
     {% endfor %}
 
-    <!-- Debug and print functions -->
-    <hr>
-    <h3>Debug and Print Functions</h3>
-    <hr>
-    <pre>{{ property | tojson | safe }}</pre>
-    <hr>
-    <pre>{{ request.args | tojson | safe }}</pre>
-    <hr>
-    <pre>{{ request.form | tojson | safe }}</pre>
 {% endblock %}
