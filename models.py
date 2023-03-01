@@ -8,7 +8,7 @@ from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crm.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crm.db.naosei'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -121,7 +121,6 @@ class Leads(db.Model):
     lead_source = db.Column(db.String(50), nullable=False)
     status = db.Column(db.String(20))
     notes = db.Column(db.String(500))
-    date = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
     additional_info = db.Column(db.String(500))
 
 

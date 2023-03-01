@@ -12,7 +12,7 @@ from flask import (
 def create_app():
     app = Flask(__name__)
     app.config['UPLOAD_FOLDER'] = '/home/pit/PycharmProjects'
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crm.db'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crm.db.naosei'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     # ... rest of the code ...
     return app

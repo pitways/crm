@@ -3,6 +3,7 @@ import sys
 import base64
 from base64 import b64encode
 import logging.handlers
+from datetime import timedelta
 
 print(os.getcwd())
 
@@ -98,12 +99,14 @@ def create_app():
     app.config['WTF_CSRF_ENABLED'] = True
     app.config['WTF_CSRF_SECRET_KEY'] = os.getenv('SECRET_KEY') or \
                                         'abc123ced456'
+    app.config['PERMANENT_SESSION_LIFETIME'] = timedelta(hours=24)
     MAX_CONTENT_LENGTH = 1024 * 1024  # 1 MB
 
     return app
 
 
 app = create_app()
+print(app.config['PERMANENT_SESSION_LIFETIME'])
 
 # Initialize Flask extensions
 db.init_app(app)
@@ -120,7 +123,7 @@ login_manager.init_app(app)
 bp = Blueprint('views', __name__, url_prefix='/')
 
 # Set up database connection
-engine = create_engine('sqlite:///crm.db')
+engine = create_engine('sqlite:///crm.db.naosei')
 Session = sessionmaker(bind=engine)
 session = scoped_session(Session)
 
@@ -847,41 +850,64 @@ def view_sales():
     sales = Sale.query.all()
     return render_template('view_sales.html', sales=sales)
 
+
+########### LEADS ############
+
+
 @app.route('/add_lead', methods=['GET', 'POST'])
 def add_lead():
     form = LeadForm()
+    print("Reached add_lead view function")
+    search_query = request.form.get('search_query')
+    print(f"Search Query: {search_query}")
+    lead = []
+    search_results = []
+
+    from datetime import date
+    from flask import flash
 
     if form.validate_on_submit():
-        name = form.name.data
-        email = form.email.data
-        phone = form.phone.data
-        address = form.address.data
-        lead_date = form.lead_date.data
-        lead_source = form.lead_source.data
-        status = form.status.data
-        notes = form.notes.data
+        new_lead = Leads(
+            name=form.name.data,
+            email=form.email.data,
+            phone=form.phone.data,
+            address=form.address.data,
+            lead_date=form.lead_date.data,
+            lead_source=form.lead_source.data,
+            status=form.status.data,
+            notes=form.notes.data,
+            additional_info=form.additional_info.data,
+        )
+        print(f"Name: {new_lead.name}")
+        print(f"Email: {new_lead.email}")
+        print(f"Phone: {new_lead.phone}")
+        print(f"Address: {new_lead.address}")
+        print(f"Lead Date: {new_lead.lead_date}")
+        print(f"Lead Source: {new_lead.lead_source}")
+        print(f"Status: {new_lead.status}")
+        print(f"Notes: {new_lead.notes}")
+        print(f"Additional Info: {new_lead.additional_info}")
 
-        print(f"Name: {name}")
-        print(f"Email: {email}")
-        print(f"Phone: {phone}")
-        print(f"Address: {address}")
-        print(f"Lead Date: {lead_date}")
-        print(f"Lead Source: {lead_source}")
-        print(f"Status: {status}")
-        print(f"Notes: {notes}")
-
-        lead = Lead(name=name, email=email, phone=phone, address=address, lead_date=lead_date,
-                    lead_source=lead_source, status=status, notes=notes)
-        db.session.add(lead)
+        db.session.add(new_lead)
         db.session.commit()
         flash('Lead added successfully.', 'success')
+
+        # Debug
+        print(f"Search Query: {search_query}")
+        print(f"Lead: {lead}")
+        print(f"Search Results: {search_results}")
+
         return redirect(url_for('view_leads'))
 
     print(f"Validation errors: {form.errors}")
     return render_template('add_lead.html', title='Add Lead', form=form)
 
-@app.route('/edit_lead/<int:id>', methods=['GET', 'POST'])
-def edit_lead(id):
+
+
+@app.route('/edit_lead/<int:lead_id>', methods=['GET', 'POST'])
+def edit_lead():
+    global lead_id
+
     lead_id = request.args.get('id')
     lead = Lead.query.filter_by(id=lead_id).first()
     lead = Lead.query.get_or_404(id)
@@ -910,10 +936,45 @@ def edit_lead(id):
     return render_template('edit_lead.html', form=form)
 
 
-@app.route('/view_leads')
+@app.route('/view_leads', methods=['GET', 'POST'])
 def view_leads():
-    leads = Lead.query.all()
-    return render_template('view_leads.html', leads=leads)
+    search_form = SearchForm(request.form)
+    leads = Leads.query.all()
+    search_results = []
+    print(leads)
+
+    if request.method == 'POST' and search_form.validate():
+        search_query = search_form.search_query.data
+        search_results = Leads.query.filter(or_(
+            Leads.name.ilike(f'%{search_query}%'),
+            Leads.phone.ilike(f'%{search_query}%'),
+            Leads.email.ilike(f'%{search_query}%')
+        )).all()
+
+    if search_results:
+        # Redirect to the lead properties page for the first result
+        return redirect(url_for('lead_properties', lead_id=search_results[0].id))
+
+    if request.method == 'POST' and 'lead_id' in request.form:
+        lead_id = request.form['lead_id']
+        return redirect(url_for('lead_properties', lead_id=lead_id))
+
+    return render_template('leads.html', leads=leads, search_form=search_form, search_results=search_results)
+
+@app.route('/lead_properties/<int:lead_id>', methods=['GET'])
+def lead_properties(lead_id):
+    lead = Leads.query.get_or_404(lead_id)
+    return render_template('lead_properties.html', lead=lead)
+
+@app.route('/delete_lead/<int:lead_id>', methods=['POST'])
+def delete_lead(lead_id):
+    lead = Leads.query.get_or_404(lead_id)
+    db.session.delete(lead)
+    db.session.commit()
+    flash(f'Lead {lead.name} has been deleted', 'success')
+    return redirect(url_for('view_leads'))
+
+
 
 
 @app.route('/add_interaction', methods=['GET', 'POST'])

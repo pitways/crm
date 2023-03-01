@@ -2,7 +2,7 @@ import sqlite3
 
 #  from app import db
 
-conn = sqlite3.connect('crm.db.bckup')
+conn = sqlite3.connect('crm.db.naosei.bckup')
 # db.create_all()
 
 conn.execute('''

@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h1>{{ lead.name }} Properties</h1>
+
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-title">Contact Information</h5>
+      <p class="card-text">Email: {{ lead.email }}</p>
+      <p class="card-text">Phone: {{ lead.phone }}</p>
+      <p class="card-text">Address: {{ lead.address }}</p>
+    </div>
+  </div>
+
+  <div class="card mt-3">
+    <div class="card-body">
+      <h5 class="card-title">Lead Information</h5>
+      <p class="card-text">Lead Date: {{ lead.lead_date }}</p>
+      <p class="card-text">Lead Source: {{ lead.lead_source }}</p>
+      <p class="card-text">Status: {{ lead.status }}</p>
+      <p class="card-text">Notes: {{ lead.notes }}</p>
+      <p class="card-text">Additional Information: {{ lead.additional_info }}</p>
+    </div>
+  </div>
+
+  <div class="mt-3">
+    <a href="{{ url_for('edit_lead', lead_id=lead.id) }}" class="btn btn-primary">Edit Lead</a>
+  </div>
+{% endblock %}

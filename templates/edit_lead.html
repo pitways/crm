@@ -29,11 +29,9 @@
     <p>
         <label for="status">Status:</label>
         <select name="status">
-            <option if lead.get( value="Novo" {% 'Status') == 'Novo' %}selected{% endif %}>Novo</option>
-            <option if lead.get( value="Em andamento" {%
-            'Status') == 'Em andamento' %}selected{% endif %}>Em andamento</option>
-            <option if lead.get( value="Concluído" {%
-            'Status') == 'Concluído' %}selected{% endif %}>Concluído</option>
+            <option {% if lead.get('Status') == 'Novo' %}selected{% endif %} value="Novo">Novo</option>
+            <option {% if lead.get('Status') == 'Em andamento' %}selected{% endif %} value="Em andamento">Em andamento</option>
+            <option {% if lead.get('Status') == 'Concluído' %}selected{% endif %} value="Concluído">Concluído</option>
         </select>
     </p>
     <p>

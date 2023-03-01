@@ -13,7 +13,7 @@ from models import Client, Properties
 
 app = Flask(__name__)
 app.secret_key = "e2d7dd8c522f1cf159f6b45a6d7e8c25"
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crm.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///crm.db.naosei'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -137,7 +137,7 @@ class LeadForm(FlaskForm):
     email = StringField('Email', validators=[Email(), DataRequired()])
     phone = StringField('Telefone', validators=[DataRequired()])
     address = StringField('Endereço', validators=[Optional()])
-    lead_date = DateField('Data do Lead', format='%d/%m/%Y', validators=[DataRequired()])
+    lead_date = DateField('Data do Lead', validators=[DataRequired()])
     lead_source = SelectField('Origem do Lead', choices=[
         ('Anúncio', 'Anúncio'),
         ('Indicação', 'Indicação'),
@@ -152,7 +152,6 @@ class LeadForm(FlaskForm):
     ], validators=[DataRequired()])
     notes = TextAreaField('Notas', validators=[Optional()])
     additional_info = TextAreaField('Info Adicional', validators=[Optional()])
-    date= DateField('Data de insercao', format='%d/%m/%Y', validators=[DataRequired()])
 
 
 class InteractionForm(FlaskForm):
