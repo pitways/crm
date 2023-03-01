@@ -150,7 +150,9 @@ class LeadForm(FlaskForm):
         ('Convertido', 'Convertido'),
         ('Descartado', 'Descartado')
     ], validators=[DataRequired()])
-    notes = TextAreaField('Observações', validators=[Optional()])
+    notes = TextAreaField('Notas', validators=[Optional()])
+    additional_info = TextAreaField('Info Adicional', validators=[Optional()])
+    date= DateField('Data de insercao', format='%d/%m/%Y', validators=[DataRequired()])
 
 
 class InteractionForm(FlaskForm):

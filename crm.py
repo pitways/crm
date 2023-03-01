@@ -53,7 +53,7 @@ from models import (
     Sale,
     Client,
     Properties,
-    Lead,
+    Leads,
     Interaction,
     Users,
 )
@@ -847,27 +847,38 @@ def view_sales():
     sales = Sale.query.all()
     return render_template('view_sales.html', sales=sales)
 
-
 @app.route('/add_lead', methods=['GET', 'POST'])
 def add_lead():
     form = LeadForm()
+
     if form.validate_on_submit():
-        lead = Lead(
-            name=form.name.data,
-            email=form.email.data,
-            phone=form.phone.data,
-            address=form.address.data,
-            lead_date=form.lead_date.data,
-            lead_source=form.lead_source.data,
-            status=form.status.data,
-            notes=form.notes.data
-        )
+        name = form.name.data
+        email = form.email.data
+        phone = form.phone.data
+        address = form.address.data
+        lead_date = form.lead_date.data
+        lead_source = form.lead_source.data
+        status = form.status.data
+        notes = form.notes.data
+
+        print(f"Name: {name}")
+        print(f"Email: {email}")
+        print(f"Phone: {phone}")
+        print(f"Address: {address}")
+        print(f"Lead Date: {lead_date}")
+        print(f"Lead Source: {lead_source}")
+        print(f"Status: {status}")
+        print(f"Notes: {notes}")
+
+        lead = Lead(name=name, email=email, phone=phone, address=address, lead_date=lead_date,
+                    lead_source=lead_source, status=status, notes=notes)
         db.session.add(lead)
         db.session.commit()
-        flash('Lead adicionado com sucesso!', 'success')
+        flash('Lead added successfully.', 'success')
         return redirect(url_for('view_leads'))
-    return render_template('add_lead.html', form=form)
 
+    print(f"Validation errors: {form.errors}")
+    return render_template('add_lead.html', title='Add Lead', form=form)
 
 @app.route('/edit_lead/<int:id>', methods=['GET', 'POST'])
 def edit_lead(id):
